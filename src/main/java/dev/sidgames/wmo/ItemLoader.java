@@ -14,6 +14,8 @@ public class ItemLoader {
                 new AluminumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_nugget"),
                 new AluminumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_alloy"),
+                new AluminumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
     }
 
 }

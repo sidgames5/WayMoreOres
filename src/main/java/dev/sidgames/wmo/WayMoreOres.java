@@ -19,5 +19,6 @@ public class WayMoreOres implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		ItemLoader.registerItems();
+		BlockLoader.registerBlocks();
 	}
 }
