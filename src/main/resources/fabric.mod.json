@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "wmo",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "WaymoreOres",
+  "description": "This mod adds a lot of new ores to the game.",
   "authors": [
-    "Me!"
+    "SidGames5",
+    "LeWolfYT"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://sidgames.dev/waymoreores/",
+    "sources": "https://github.com/BasicCorruption/WaymoreOres"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/wmo/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.sidgames.wmo.WayMoreOres"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "wmo.mixins.json"
   ],
 
   "depends": {
