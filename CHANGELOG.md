@@ -1,43 +1,4 @@
-# Changelog for update 22w25b
-
-## Additions
-
-- Lead ingot, nugget, block, and ore.
-- Lead poisoning.
-- Loot tables/item drops for all blocks and ores.
-- Uranium rod.
-- Add tooltip to lead ingot.
-
-## Updates
-
-- Updated bronze texture.
-- Updated tin nugget texture.
-- Updated aluminum nugget texture.
-- Update aluminum ingot texture.
-- Updated sapphire texture.
-- Updated lithium ingot texture.
-- Updated uranium ingot texture.
-- Updated uranium nugget texture.
-- Updated ruby block texture.
-- Updated sapphire block texture.
-- Updated aluminum block texture.
-- Updated uranium block texture.
-- Updated platinum block texture.
-- Updated bronze block texture.
-- Updated tin block texture.
-
-## Removals
-
-- Removed copper ingot, nugget, block, and ore. (They now exist in the vanilla game.)
-
-## Bug Fixes
-
-- Silver ingots and nuggets do not have a name in the language file.
-- Lithium ingots and nuggets do not have a name in the language file.
-- Lithium nugget has a missing texture.
-- Silver ingot and nugget have a missing texture.
-
-# Overall changelog for update 1.3.0
+# Changelog for update 1.3.0
 
 ## Additions
 
