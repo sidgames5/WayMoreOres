@@ -2,6 +2,8 @@
 
 ## Additions
 
+- Lead ingot, nugget, block, and ore.
+
 ## Bug Fixes
 
 - Silver ingots and nuggets do not have a name in the language file.

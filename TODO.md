@@ -1,3 +1,0 @@
-# Crafting recipes
-
-Uranium
