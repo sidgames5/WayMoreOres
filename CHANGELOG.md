@@ -4,6 +4,7 @@
 
 - Lead ingot, nugget, block, and ore.
 - Lead poisoning.
+- Loot tables/item drops for all blocks and ores.
 
 ## Bug Fixes
 
