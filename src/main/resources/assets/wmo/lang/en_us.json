@@ -38,5 +38,8 @@
     "item.wmo.zinc": "Zinc",
     "block.wmo.zinc_block": "Zinc Block",
     "block.wmo.zinc_ore": "Zinc Ore",
-    "item.wmo.uranium_rod": "Uranium Fuel Rod"
+    "item.wmo.uranium_rod": "Uranium Fuel Rod",
+
+    "item.wmo.lead_ingot.tooltip.shift": "Don't eat this! It gives you lead poisoning!",
+    "item.wmo.lead_ingot.tooltip.hint": "Hold shift for info"
 }
