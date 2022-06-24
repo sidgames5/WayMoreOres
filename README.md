@@ -1,17 +1,17 @@
 # WayMoreOres
 
-![GitHub issues](https://img.shields.io/github/issues/basiccorruption/waymoreores)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/basiccorruption/waymoreores/build)
-![GitHub all releases](https://img.shields.io/github/downloads/basiccorruption/waymoreores/total)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/basiccorruption/waymoreores)
-![GitHub](https://img.shields.io/github/license/basiccorruption/waymoreores)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag&include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/basiccorruption/waymoreores)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/basiccorruption/waymoreores)
-![GitHub contributors](https://img.shields.io/github/contributors/basiccorruption/waymoreores)
-![GitHub repo size](https://img.shields.io/github/repo-size/basiccorruption/waymoreores)
-![GitHub Discussions](https://img.shields.io/github/discussions/basiccorruption/waymoreores)
+![GitHub issues](https://img.shields.io/github/issues/basiccorruption/waymoreores?style=plastic)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/basiccorruption/waymoreores/build?style=plastic)
+![GitHub all releases](https://img.shields.io/github/downloads/basiccorruption/waymoreores/total?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/basiccorruption/waymoreores?style=plastic)
+![GitHub](https://img.shields.io/github/license/basiccorruption/waymoreores?style=plastic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag&style=plastic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag&include_prereleases&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/basiccorruption/waymoreores?style=plastic)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/basiccorruption/waymoreores?style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/basiccorruption/waymoreores?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/basiccorruption/waymoreores?style=plastic)
+![GitHub Discussions](https://img.shields.io/github/discussions/basiccorruption/waymoreores?style=plastic)
 
 WayMoreOres is a utility mod that adds many new ores to Minecraft!
 
