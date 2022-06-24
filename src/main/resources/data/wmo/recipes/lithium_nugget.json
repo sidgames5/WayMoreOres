@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wmo:lithium_ingot"
+    }
+  ],
+  "result": {
+    "item": "wmo:lithium_nugget",
+    "count": 9
+  }
+}
