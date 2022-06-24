@@ -5,7 +5,7 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/basiccorruption/waymoreores/total)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/basiccorruption/waymoreores)
 ![GitHub](https://img.shields.io/github/license/basiccorruption/waymoreores)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag)
 ![GitHub last commit](https://img.shields.io/github/last-commit/basiccorruption/waymoreores)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/basiccorruption/waymoreores)
 ![GitHub contributors](https://img.shields.io/github/contributors/basiccorruption/waymoreores)
