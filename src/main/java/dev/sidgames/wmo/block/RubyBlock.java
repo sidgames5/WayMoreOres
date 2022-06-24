@@ -5,7 +5,7 @@ import net.minecraft.block.Material;
 
 public class RubyBlock extends BlockBase {
     public RubyBlock() {
-        super(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F));
+        super(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool());
     }
 
 }

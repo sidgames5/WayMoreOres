@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "wmo:aluminum_block",
+    "wmo:bauxite_ore",
+    "wmo:bronze_block",
+    "wmo:lead_block",
+    "wmo:lead_ore",
+    "wmo:lithium_block",
+    "wmo:lithium_ore",
+    "wmo:platinum_block",
+    "wmo:platinum_ore",
+    "wmo:silver_block",
+    "wmo:silver_ore",
+    "wmo:ruby_block",
+    "wmo:ruby_ore",
+    "wmo:sapphire_block",
+    "wmo:sapphire_ore",
+    "wmo:tin_block",
+    "wmo:tin_ore",
+    "wmo:uranium_block",
+    "wmo:uranium_ore"
+  ]
+}

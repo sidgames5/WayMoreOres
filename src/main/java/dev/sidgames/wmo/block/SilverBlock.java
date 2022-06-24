@@ -5,7 +5,7 @@ import net.minecraft.block.Material;
 
 public class SilverBlock extends BlockBase {
     public SilverBlock() {
-        super(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F));
+        super(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool());
     }
 
 }
