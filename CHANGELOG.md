@@ -11,6 +11,13 @@
 ## Updates
 
 - Updated bronze texture.
+- Updated tin nugget texture.
+- Updated aluminum nugget texture.
+- Update aluminum ingot texture.
+- Updated sapphire texture.
+- Updated lithium ingot texture.
+- Updated uranium ingot texture.
+- Updated uranium nugget texture.
 
 ## Removals
 
