@@ -6,6 +6,7 @@
 - Lead poisoning.
 - Loot tables/item drops for all blocks and ores.
 - Uranium rod.
+- Add tooltip to lead ingot.
 
 ## Bug Fixes
 
