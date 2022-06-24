@@ -41,5 +41,10 @@
     "item.wmo.uranium_rod": "Uranium Fuel Rod",
 
     "item.wmo.lead_ingot.tooltip.shift": "Don't eat this! It gives you lead poisoning!",
-    "item.wmo.lead_ingot.tooltip.hint": "Hold shift for info"
+    "item.wmo.lead_ingot.tooltip.hint": "Hold shift for info",
+
+    "block.wno.lead_block": "Lead Block",
+    "block.wno.lead_ore": "Lead Ore",
+    "item.wno.lead_ingot": "Lead Ingot",
+    "item.wno.lead_nugget": "Lead Nugget"
 }
