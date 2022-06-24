@@ -26,6 +26,22 @@
 - Updated lithium ingot texture.
 - Updated uranium ingot texture.
 - Updated uranium nugget texture.
+- Updated bronze texture.
+- Updated tin nugget texture.
+- Updated aluminum nugget texture.
+- Update aluminum ingot texture.
+- Updated sapphire texture.
+- Updated lithium ingot texture.
+- Updated uranium ingot texture.
+- Updated uranium nugget texture.
+- Updated ruby block texture.
+- Updated sapphire block texture.
+- Updated aluminum block texture.
+- Updated uranium block texture.
+- Updated platinum block texture.
+- Updated bronze block texture.
+- Updated tin block texture.
+- Updated lithium block texture.
 
 ## Removals
 
