@@ -1,11 +1,21 @@
-# Changelog for update 1.2.1
+# Changelog for update 22w25a
 
 ## Additions
 
-- Crafting recipes for aluminum and bronze
-- Smelting recipes for aluminum and bronze
-- Blasting recipes for aluminum and bronze
+- Crafting recipes for lithium
+
+## Updates
+
+## Removals
 
 ## Bug Fixes
 
-- Aluminum block and bauxite ore having broken item models
+# Overall changelog for update 1.3.0
+
+## Additions
+
+## Updates
+
+## Removals
+
+## Bug Fixes
