@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wmo:uranium_ingot"
+  },
+  "result": "wmo:uranium_rod",
+  "experience": 20,
+  "cookingtime": 1600
+}
