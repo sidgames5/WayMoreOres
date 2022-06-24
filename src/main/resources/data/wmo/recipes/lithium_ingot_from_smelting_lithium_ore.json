@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "group": "lithium_ingot",
   "ingredient": {
-    "item": "wmo:bauxite_ore"
+    "item": "wmo:lithium_ore"
   },
   "result": "wmo:lithium_ingot",
   "experience": 0.7,
