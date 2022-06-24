@@ -8,10 +8,20 @@
 - Uranium rod.
 - Add tooltip to lead ingot.
 
+## Updates
+
+- Updated bronze texture.
+
+## Removals
+
+- Removed copper ingot, nugget, block, and ore. (They now exist in the vanilla game.)
+
 ## Bug Fixes
 
 - Silver ingots and nuggets do not have a name in the language file.
 - Lithium ingots and nuggets do not have a name in the language file.
+- Lithium nugget has a missing texture.
+- Silver ingot and nugget have a missing texture.
 
 # Overall changelog for update 1.3.0
 
