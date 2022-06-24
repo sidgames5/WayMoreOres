@@ -4,6 +4,8 @@
 
 - Crafting recipes for lithium
 - Crafting recipes for platinum
+- Crafting recipes for ruby
+- Crafting recipes for sapphire
 
 ## Updates
 
