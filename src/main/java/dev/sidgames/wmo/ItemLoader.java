@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ItemLoader {
+    public static final Item URANIUM_ROD = new UraniumRod(new Item.Settings().group(ItemGroup.MATERIALS));
     public static void registerItems() {
         // Register items here
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_ingot"), new AluminumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
@@ -26,7 +27,7 @@ public class ItemLoader {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_nugget"), new TinNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"), new UraniumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_nugget"), new UraniumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), new UraniumRod(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), URANIUM_ROD);
     }
 
 }

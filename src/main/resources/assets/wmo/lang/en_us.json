@@ -37,5 +37,6 @@
     "block.wmo.silver_ore": "Silver Ore",
     "item.wmo.zinc": "Zinc",
     "block.wmo.zinc_block": "Zinc Block",
-    "block.wmo.zinc_ore": "Zinc Ore"
+    "block.wmo.zinc_ore": "Zinc Ore",
+    "item.wmo.uranium_rod": "Uranium Fuel Rod"
 }
