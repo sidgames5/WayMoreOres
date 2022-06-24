@@ -43,8 +43,8 @@
     "item.wmo.lead_ingot.tooltip.shift": "Don't eat this! It gives you lead poisoning!",
     "item.wmo.lead_ingot.tooltip.hint": "Hold shift for info",
 
-    "block.wno.lead_block": "Lead Block",
-    "block.wno.lead_ore": "Lead Ore",
-    "item.wno.lead_ingot": "Lead Ingot",
-    "item.wno.lead_nugget": "Lead Nugget"
+    "block.wmo.lead_block": "Lead Block",
+    "block.wmo.lead_ore": "Lead Ore",
+    "item.wmo.lead_ingot": "Lead Ingot",
+    "item.wmo.lead_nugget": "Lead Nugget"
 }
