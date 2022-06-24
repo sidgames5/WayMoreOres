@@ -3,6 +3,7 @@
 ## Additions
 
 - Lead ingot, nugget, block, and ore.
+- Lead poisoning.
 
 ## Bug Fixes
 
