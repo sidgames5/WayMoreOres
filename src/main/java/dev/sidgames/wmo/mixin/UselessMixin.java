@@ -1,5 +1,6 @@
 package dev.sidgames.wmo.mixin;
 
+import dev.sidgames.wmo.Reference;
 import dev.sidgames.wmo.WayMoreOres;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
@@ -11,6 +12,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class UselessMixin {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        WayMoreOres.LOGGER.info("This line is printed by an example mod mixin!");
+        Reference.LOGGER.info("This line is printed by an example mod mixin!");
     }
 }
