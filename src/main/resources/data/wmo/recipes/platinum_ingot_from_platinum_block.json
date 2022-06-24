@@ -7,10 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "wmo:platinum_ingot"
+      "item": "wmo:platinum_block"
     }
   },
   "result": {
-    "item": "wmo:platinum_block"
+    "item": "wmo:platinum_ingot",
+    "count": 9
   }
 }
