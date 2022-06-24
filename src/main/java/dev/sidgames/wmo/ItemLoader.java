@@ -26,6 +26,7 @@ public class ItemLoader {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_nugget"), new TinNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"), new UraniumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_nugget"), new UraniumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), new UraniumRod(new Item.Settings().group(ItemGroup.MATERIALS)));
     }
 
 }
