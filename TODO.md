@@ -1,4 +1,3 @@
 # Crafting recipes
 
-Tin
 Uranium

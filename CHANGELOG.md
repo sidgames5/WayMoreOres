@@ -8,6 +8,7 @@
 - Crafting recipes for sapphire
 - Silver ingots and nuggets
 - Crafting recipes for silver
+- Crafting recipes for tin
 
 ## Updates
 
