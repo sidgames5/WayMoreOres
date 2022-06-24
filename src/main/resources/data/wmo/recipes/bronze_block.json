@@ -11,6 +11,7 @@
     }
   },
   "result": {
-    "item": "wmo:bronze_block"
+    "item": "wmo:bronze_block",
+    "count": 1
   }
 }

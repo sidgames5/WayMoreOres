@@ -13,6 +13,7 @@ import net.minecraft.util.registry.Registry;
 public class BlockLoader {
         public static Block ALUMINUM_BLOCK;
         public static Block BAUXITE_ORE;
+        public static Block BRONZE_BLOCK;
         public static Block LITHIUM_BLOCK;
         public static Block LITHIUM_ORE;
         public static Block PLATINUM_BLOCK;
@@ -32,6 +33,7 @@ public class BlockLoader {
                 // Register blocks here
                 ALUMINUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "aluminum_block"), new AluminumBlock());
                 BAUXITE_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "bauxite_ore"), new BauxiteOre());
+                BRONZE_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "bronze_block"), new BronzeBlock());
                 LITHIUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "lithium_block"), new LithiumBlock());
                 LITHIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "lithium_ore"), new LithiumOre());
                 PLATINUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "platinum_block"), new PlatinumBlock());
@@ -54,6 +56,7 @@ public class BlockLoader {
                 // Register block items here
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_block"), new BlockItem(ALUMINUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bauxite_ore"), new BlockItem(BAUXITE_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_block"), new BlockItem(BRONZE_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_block"), new BlockItem(LITHIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_ore"), new BlockItem(LITHIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_block"), new BlockItem(PLATINUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
