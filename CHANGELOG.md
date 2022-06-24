@@ -3,6 +3,7 @@
 ## Additions
 
 - Crafting recipes for lithium
+- Crafting recipes for platinum
 
 ## Updates
 

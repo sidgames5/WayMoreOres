@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wmo:platinum_ingot"
+    }
+  ],
+  "result": {
+    "item": "wmo:platinum_nugget",
+    "count": 9
+  }
+}
