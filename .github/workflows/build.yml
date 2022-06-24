@@ -37,7 +37,6 @@ jobs:
         with:
           name: Artifacts
           path: build/libs/
-#       # take the files in the build/libs directory and upload them to a new release titled 'dev' marked as pre-release
        - name: upload artifacts
             uses: actions/upload-artifact@v2
             with:
