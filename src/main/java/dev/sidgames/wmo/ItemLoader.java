@@ -18,6 +18,8 @@ public class ItemLoader {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_nugget"), new PlatinumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby"), new RubyGem(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire"), new SapphireGem(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_ingot"), new SilverIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_nugget"), new SilverNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_ingot"), new TinIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_nugget"), new TinNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"), new UraniumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));

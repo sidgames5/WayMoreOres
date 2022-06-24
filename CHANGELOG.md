@@ -6,6 +6,7 @@
 - Crafting recipes for platinum
 - Crafting recipes for ruby
 - Crafting recipes for sapphire
+- Silver ingots and nuggets
 - Crafting recipes for silver
 
 ## Updates
