@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "moreores:item/uranium_ingot"
+        "layer0": "wmo:item/uranium_ingot"
     }
 }

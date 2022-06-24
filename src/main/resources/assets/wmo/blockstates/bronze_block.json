@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "moreores:block/bronze_block"}
+        "": {"model": "wmo:block/bronze_block"}
     }
 }

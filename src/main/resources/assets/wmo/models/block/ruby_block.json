@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "moreores:block/ruby_block"
+        "all": "wmo:block/ruby_block"
     }
 }

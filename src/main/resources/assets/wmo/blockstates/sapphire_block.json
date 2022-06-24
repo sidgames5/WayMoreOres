@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "moreores:block/sapphire_block"}
+        "": {"model": "wmo:block/sapphire_block"}
     }
 }

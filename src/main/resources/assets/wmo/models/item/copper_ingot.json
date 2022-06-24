@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "moreores:item/copper_ingot"
+        "layer0": "wmo:item/copper_ingot"
     }
 }

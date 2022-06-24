@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "moreores:block/aluminum_ore"
+        "all": "wmo:block/bauxite_ore"
     }
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "moreores:block/lithium_block"}
+        "": {"model": "wmo:block/lithium_block"}
     }
 }

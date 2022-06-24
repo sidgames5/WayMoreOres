@@ -1,7 +1,6 @@
 package dev.sidgames.wmo;
 
-import dev.sidgames.wmo.item.AluminumIngot;
-import dev.sidgames.wmo.item.AluminumNugget;
+import dev.sidgames.wmo.item.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -15,7 +14,31 @@ public class ItemLoader {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_nugget"),
                 new AluminumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_alloy"),
-                new AluminumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
+                new BronzeAlloy(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "copper_ingot"),
+                new CopperIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "copper_nugget"),
+                new CopperNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_ingot"),
+                new LithiumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_nugget"),
+                new LithiumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_ingot"),
+                new PlatinumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_nugget"),
+                new PlatinumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby"),
+                new RubyGem(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire"),
+                new SapphireGem(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_ingot"),
+                new TinIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_nugget"),
+                new TinNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"),
+                new UraniumIngot(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_nugget"),
+                new UraniumNugget(new Item.Settings().group(ItemGroup.MATERIALS)));
     }
 
 }

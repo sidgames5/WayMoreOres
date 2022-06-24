@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "moreores:block/tin_block"}
+        "": {"model": "wmo:block/tin_block"}
     }
 }

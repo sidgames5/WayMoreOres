@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "moreores:block/uranium_ore"
+        "all": "wmo:block/uranium_ore"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "moreores:item/lithium_ingot"
+        "layer0": "wmo:item/lithium_ingot"
     }
 }

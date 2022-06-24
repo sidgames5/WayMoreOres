@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "moreores:block/uranium_block"}
+        "": {"model": "wmo:block/uranium_block"}
     }
 }

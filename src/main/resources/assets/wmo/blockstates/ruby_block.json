@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "moreores:block/ruby_block"}
+        "": {"model": "wmo:block/ruby_block"}
     }
 }

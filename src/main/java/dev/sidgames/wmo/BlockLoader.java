@@ -50,7 +50,7 @@ public class BlockLoader {
                 Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "uranium_ore"),
                                 new UraniumOre());
 
-                //registerBlockItems();
+                registerBlockItems();
         }
 
         public static void registerBlockItems() {

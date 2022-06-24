@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "moreores:block/aluminum_block"}
+        "": {"model": "wmo:block/aluminum_block"}
     }
 }

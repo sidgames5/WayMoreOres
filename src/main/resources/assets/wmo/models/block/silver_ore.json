@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "moreores:block/silver_ore"
+        "all": "wmo:block/silver_ore"
     }
 }
