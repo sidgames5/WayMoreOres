@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "dev.sidgames.wmo.WayMoreOres"
+    ],
+    "client": [
+      "dev.sidgames.wmo.WMOClient"
     ]
   },
   "mixins": [
