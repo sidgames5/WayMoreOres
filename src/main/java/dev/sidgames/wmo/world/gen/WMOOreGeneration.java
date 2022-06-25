@@ -7,6 +7,7 @@ import net.minecraft.world.gen.GenerationStep;
 
 public class WMOOreGeneration {
     public static void generateOres() {
-
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeatures.BAUXITE_ORE_PLACED.getKey().get());
     }
 }
