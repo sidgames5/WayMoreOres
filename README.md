@@ -2,7 +2,7 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/basiccorruption/waymoreores?style=plastic)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/basiccorruption/waymoreores/build?style=plastic)
-![GitHub all releases](https://img.shields.io/github/downloads/basiccorruption/waymoreores/total?style=plastic)
+![GitHub all releases](https://img.shields.io/github/downloads/basiccorruption/waymoreores/total?label=downloads%20%28github%29&style=plastic)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/basiccorruption/waymoreores?style=plastic)
 ![GitHub](https://img.shields.io/github/license/basiccorruption/waymoreores?style=plastic)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag&style=plastic)
