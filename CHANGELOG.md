@@ -42,6 +42,8 @@
 - Updated bronze block texture.
 - Updated tin block texture.
 - Updated lithium block texture.
+- Updated lithium ore texture.
+- Updated silver block texture.
 
 ## Removals
 
