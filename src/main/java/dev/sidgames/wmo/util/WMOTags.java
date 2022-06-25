@@ -20,8 +20,6 @@ public class WMOTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> ALUMINUM_INGOT = createCommonTag("aluminum_ingot");
-        public static final TagKey<Item> ALUMINUM_NUGGET = createCommonTag("aluminum_nugget");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(Reference.MOD_ID, name));
