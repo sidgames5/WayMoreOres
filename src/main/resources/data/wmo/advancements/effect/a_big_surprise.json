@@ -2,12 +2,12 @@
   "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
   "display": {
     "title": {
-      "text": "Unexpected Poisoning",
+      "text": "A Big Surprise",
       "color": "green",
       "obfuscated": false
     },
     "description": {
-      "text": "Consume a lead ingot"
+      "text": "Don't consume the lead ingot! It's poisonous!"
     },
     "icon": {
       "item": "wmo:lead_ingot"
@@ -20,11 +20,15 @@
   },
   "criteria": {
     "eatLead": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": {
-          "item": "wmo:lead_ingot"
-        }
+        "items": [
+          {
+            "items": [
+              "wmo:lead_ingot"
+            ]
+          }
+        ]
       }
     }
   }
