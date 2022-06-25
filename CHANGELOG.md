@@ -2,6 +2,8 @@
 
 ## Additions
 
+- Add ore generation for bauxite ore
+
 ## Updates
 
 ## Removals
