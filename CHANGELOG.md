@@ -1,4 +1,4 @@
-# Changelog for update 1.3.0
+# Changelog for update 22w25c
 
 ## Additions
 
