@@ -1,0 +1,11 @@
+package dev.sidgames.wmo.block;
+
+import dev.sidgames.wmo.BlockLoader;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+
+public class DeepslateSilverOre extends BlockBase {
+    public DeepslateSilverOre() {
+        super(FabricBlockSettings.copy(BlockLoader.SILVER_ORE));
+    }
+
+}
