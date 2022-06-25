@@ -31,6 +31,16 @@ public class BlockLoader {
         public static Block URANIUM_BLOCK;
         public static Block URANIUM_ORE;
 
+        public static Block DEEPSLATE_BAUXITE_ORE;
+        public static Block DEEPSLATE_LEAD_ORE;
+        public static Block DEEPSLATE_LITHIUM_ORE;
+        public static Block DEEPSLATE_PLATINUM_ORE;
+        public static Block DEEPSLATE_RUBY_ORE;
+        public static Block DEEPSLATE_SILVER_ORE;
+        public static Block DEEPSLATE_TIN_ORE;
+        public static Block DEEPSLATE_SAPPHIRE_ORE;
+        public static Block DEEPSLATE_URANIUM_ORE;
+
         public static void registerBlocks() {
                 // Register blocks here
                 ALUMINUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "aluminum_block"), new AluminumBlock());
@@ -52,6 +62,16 @@ public class BlockLoader {
                 TIN_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "tin_ore"), new TinOre());
                 URANIUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "uranium_block"), new UraniumBlock());
                 URANIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "uranium_ore"), new UraniumOre());
+
+                DEEPSLATE_BAUXITE_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_bauxite_ore"), new DeepslateBauxiteOre());
+                DEEPSLATE_LEAD_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_lead_ore"), new DeepslateLeadOre());
+                DEEPSLATE_LITHIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_lithium_ore"), new DeepslateLithiumOre());
+                DEEPSLATE_PLATINUM_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_platinum_ore"), new DeepslatePlatinumOre());
+                DEEPSLATE_RUBY_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_ruby_ore"), new DeepslateRubyOre());
+                DEEPSLATE_SILVER_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_silver_ore"), new DeepslateSilverOre());
+                DEEPSLATE_TIN_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_tin_ore"), new DeepslateTinOre());
+                DEEPSLATE_SAPPHIRE_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_sapphire_ore"), new DeepslateSapphireOre());
+                DEEPSLATE_URANIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_uranium_ore"), new DeepslateUraniumOre());
 
                 registerBlockItems();
         }
@@ -77,6 +97,16 @@ public class BlockLoader {
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_ore"), new BlockItem(TIN_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_block"), new BlockItem(URANIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
                 Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ore"), new BlockItem(URANIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_bauxite_ore"), new BlockItem(DEEPSLATE_BAUXITE_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_lead_ore"), new BlockItem(DEEPSLATE_LEAD_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_lithium_ore"), new BlockItem(DEEPSLATE_LITHIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_platinum_ore"), new BlockItem(DEEPSLATE_PLATINUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_ruby_ore"), new BlockItem(DEEPSLATE_RUBY_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_sapphire_ore"), new BlockItem(DEEPSLATE_SAPPHIRE_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_silver_ore"), new BlockItem(DEEPSLATE_SILVER_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_tin_ore"), new BlockItem(DEEPSLATE_TIN_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_uranium_ore"), new BlockItem(DEEPSLATE_URANIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 
         }
 }
