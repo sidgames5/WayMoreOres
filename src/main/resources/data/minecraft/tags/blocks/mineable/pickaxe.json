@@ -19,6 +19,15 @@
     "wmo:tin_block",
     "wmo:tin_ore",
     "wmo:uranium_block",
-    "wmo:uranium_ore"
+    "wmo:uranium_ore",
+    "wmo:deepslate_bauxite_ore",
+    "wmo:deepslate_lead_ore",
+    "wmo:deepslate_lithium_ore",
+    "wmo:deepslate_platinum_ore",
+    "wmo:deepslate_silver_ore",
+    "wmo:deepslate_ruby_ore",
+    "wmo:deepslate_sapphire_ore",
+    "wmo:deepslate_tin_ore",
+    "wmo:deepslate_uranium_ore"
   ]
 }
