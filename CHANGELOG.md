@@ -7,6 +7,7 @@
 - Add ore generation for platinum
 - Add ore generation for lead
 - Add ore generation for ruby
+- Add ore generation for sapphire
 
 ## Updates
 
