@@ -11,7 +11,7 @@
 - Added language translation entries for deepslate platinum ore
 - Added language translation entries for deepslate ruby ore
 - Added language translation entries for deepslate sapphire ore
-- Added language translation entries for deepslate silver ore
+- Added language translation entries for deepslate tin ore
 - Added language translation entries for deepslate uranium ore
 
 ## Removals
