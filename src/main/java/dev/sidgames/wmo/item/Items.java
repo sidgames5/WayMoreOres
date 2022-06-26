@@ -1,8 +1,7 @@
 package dev.sidgames.wmo.item;
 
 import dev.sidgames.wmo.Reference;
-import dev.sidgames.wmo.item.*;
-import dev.sidgames.wmo.item.custom.LeadIngot;
+import dev.sidgames.wmo.item.functional.LeadIngot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
