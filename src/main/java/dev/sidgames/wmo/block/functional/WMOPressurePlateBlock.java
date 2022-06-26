@@ -1,4 +1,4 @@
-package dev.sidgames.wmo.block.custom;
+package dev.sidgames.wmo.block.functional;
 
 import net.minecraft.block.PressurePlateBlock;
 
