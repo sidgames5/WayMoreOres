@@ -13,4 +13,7 @@ public class WMOPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> LEAD_ORE_PLACED = PlacedFeatures.register("lead_ore_placed",
             WMOConfiguredFeatures.LEAD_ORE, WMOOreFeatures.modifiersWithCount(7,
                     HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+    public static final RegistryEntry<PlacedFeature> LITHIUM_ORE_PLACED = PlacedFeatures.register("lithium_ore_placed",
+            WMOConfiguredFeatures.LITHIUM_ORE, WMOOreFeatures.modifiersWithCount(7,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 }
