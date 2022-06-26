@@ -1,17 +1,4 @@
-# Changelog for update 22w26a
-
-## Additions
-
-## Updates
-
-- Made deepslate sapphire ore drop the gem instead of the ore
-- Made deepslate ruby ore drop the gem instead of the ore
-
-## Removals
-
-## Bug Fixes
-
-# Overall changelog for 1.4.0
+# Changelog for 1.4.0
 
 ## Additions
 
