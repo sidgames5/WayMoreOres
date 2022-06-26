@@ -22,4 +22,7 @@ public class WMOPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> RUBY_ORE_PLACED = PlacedFeatures.register("ruby_ore_placed",
             WMOConfiguredFeatures.RUBY_ORE, WMOOreFeatures.modifiersWithCount(7,
                     HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+    public static final RegistryEntry<PlacedFeature> SAPPHIRE_ORE_PLACED = PlacedFeatures.register("sapphire_ore_placed",
+            WMOConfiguredFeatures.SAPPHIRE_ORE, WMOOreFeatures.modifiersWithCount(7,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 }
