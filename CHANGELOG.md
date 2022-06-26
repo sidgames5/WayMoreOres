@@ -2,8 +2,6 @@
 
 ## Additions
 
-## Updates
-
 - Added language translation entries for deepslate bauxite ore
 - Added language translation entries for deepslate lead ore
 - Added language translation entries for deepslate silver ore
@@ -22,6 +20,11 @@
 - Added loot table entries for deepslate sapphire ore
 - Added loot table entries for deepslate tin ore
 - Added loot table entries for deepslate uranium ore
+
+## Updates
+
+- Made sapphire ore drop the gem instead of the ore
+- Made ruby ore drop the gem instead of the ore
 
 ## Removals
 
@@ -78,6 +81,9 @@
 - Added loot table entries for deepslate uranium ore
 
 ## Updates
+
+- Made sapphire ore drop the gem instead of the ore
+- Made ruby ore drop the gem instead of the ore
 
 ## Removals
 
