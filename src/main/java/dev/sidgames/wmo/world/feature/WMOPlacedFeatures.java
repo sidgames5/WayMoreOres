@@ -16,4 +16,10 @@ public class WMOPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> LITHIUM_ORE_PLACED = PlacedFeatures.register("lithium_ore_placed",
             WMOConfiguredFeatures.LITHIUM_ORE, WMOOreFeatures.modifiersWithCount(7,
                     HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+    public static final RegistryEntry<PlacedFeature> PLATINUM_ORE_PLACED = PlacedFeatures.register("platinum_ore_placed",
+            WMOConfiguredFeatures.PLATINUM_ORE, WMOOreFeatures.modifiersWithCount(7,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+    public static final RegistryEntry<PlacedFeature> RUBY_ORE_PLACED = PlacedFeatures.register("ruby_ore_placed",
+            WMOConfiguredFeatures.RUBY_ORE, WMOOreFeatures.modifiersWithCount(7,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 }
