@@ -39,12 +39,19 @@
     "block.wmo.zinc_block": "Zinc Block",
     "block.wmo.zinc_ore": "Zinc Ore",
     "item.wmo.uranium_rod": "Uranium Fuel Rod",
-
     "item.wmo.lead_ingot.tooltip.shift": "Don't eat this! It gives you lead poisoning!",
     "item.wmo.lead_ingot.tooltip.hint": "Hold shift for info",
-
     "block.wmo.lead_block": "Lead Block",
     "block.wmo.lead_ore": "Lead Ore",
     "item.wmo.lead_ingot": "Lead Ingot",
-    "item.wmo.lead_nugget": "Lead Nugget"
+    "item.wmo.lead_nugget": "Lead Nugget",
+    "block.wmo.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
+    "block.wmo.deepslate_lead_ore": "Deepslate Lead Ore",
+    "block.wmo.deepslate_silver_ore": "Deepslate Silver Ore",
+    "block.wmo.deepslate_tin_ore": "Deepslate Tin Ore",
+    "block.wmo.deepslate_lithium_ore": "Deepslate Lithium Ore",
+    "block.wmo.deepslate_platinum_ore": "Deepslate Platinum Ore",
+    "block.wmo.deepslate_ruby_ore": "Deepslate Ruby Ore",
+    "block.wmo.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+    "block.wmo.deepslate_uranium_ore": "Deepslate Uranium Ore"
 }
