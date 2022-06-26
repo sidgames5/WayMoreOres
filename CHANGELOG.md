@@ -1,30 +1,8 @@
-# Changelog for update 22w25d
+# Changelog for update 22w26a
 
 ## Additions
 
-- Added language translation entries for deepslate bauxite ore
-- Added language translation entries for deepslate lead ore
-- Added language translation entries for deepslate silver ore
-- Added language translation entries for deepslate lithium ore
-- Added language translation entries for deepslate platinum ore
-- Added language translation entries for deepslate ruby ore
-- Added language translation entries for deepslate sapphire ore
-- Added language translation entries for deepslate tin ore
-- Added language translation entries for deepslate uranium ore
-- Added loot table entries for deepslate bauxite ore
-- Added loot table entries for deepslate lead ore
-- Added loot table entries for deepslate silver ore
-- Added loot table entries for deepslate lithium ore
-- Added loot table entries for deepslate platinum ore
-- Added loot table entries for deepslate ruby ore
-- Added loot table entries for deepslate sapphire ore
-- Added loot table entries for deepslate tin ore
-- Added loot table entries for deepslate uranium ore
-
 ## Updates
-
-- Made sapphire ore drop the gem instead of the ore
-- Made ruby ore drop the gem instead of the ore
 
 ## Removals
 
