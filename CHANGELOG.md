@@ -4,6 +4,9 @@
 
 ## Updates
 
+- Made deepslate sapphire ore drop the gem instead of the ore
+- Made deepslate ruby ore drop the gem instead of the ore
+
 ## Removals
 
 ## Bug Fixes
@@ -62,6 +65,8 @@
 
 - Made sapphire ore drop the gem instead of the ore
 - Made ruby ore drop the gem instead of the ore
+- Made deepslate sapphire ore drop the gem instead of the ore
+- Made deepslate ruby ore drop the gem instead of the ore
 
 ## Removals
 
