@@ -1,5 +1,7 @@
 # Changelog for 1.4.0
 
+The giant ore update!
+
 ## Additions
 
 - Added ore generation for bauxite
