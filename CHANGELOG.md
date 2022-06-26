@@ -13,6 +13,15 @@
 - Added language translation entries for deepslate sapphire ore
 - Added language translation entries for deepslate tin ore
 - Added language translation entries for deepslate uranium ore
+- Added loot table entries for deepslate bauxite ore
+- Added loot table entries for deepslate lead ore
+- Added loot table entries for deepslate silver ore
+- Added loot table entries for deepslate lithium ore
+- Added loot table entries for deepslate platinum ore
+- Added loot table entries for deepslate ruby ore
+- Added loot table entries for deepslate sapphire ore
+- Added loot table entries for deepslate tin ore
+- Added loot table entries for deepslate uranium ore
 
 ## Removals
 
