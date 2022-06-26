@@ -23,7 +23,8 @@ WayMoreOres is a utility mod that adds many new ores to Minecraft!
 4. Open the terminal and navigate to the folder where the code is located
 5. If you are using linux, run the following command: `chmod +x ./gradlew`
 6. Run the following command: `./gradlew genSources`
-7. Once you have completed all of the steps, you can open the project in IntelliJ IDEA or Eclipse.
+7. Once you have completed all the steps, you can open the project in your favorite IDE.
+8. If you are using IntelliJ, you can skip this step: Type `gradlew <vscode|eclipse>` in the terminal.
 
 ## Testing
 
