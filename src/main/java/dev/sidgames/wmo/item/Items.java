@@ -45,18 +45,21 @@ public class Items {
 
         // Register tool items here
         /// Axes
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_axe"), new WMOAxeItem(WMOToolMaterials.ALUMINUM, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_axe"), new WMOAxeItem(WMOToolMaterials.BRONZE, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_axe"), new WMOAxeItem(WMOToolMaterials.LEAD, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_axe"), new WMOAxeItem(WMOToolMaterials.LITHIUM, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_axe"), new WMOAxeItem(WMOToolMaterials.PLATINUM, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_axe"), new WMOAxeItem(WMOToolMaterials.RUBY, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_axe"), new WMOAxeItem(WMOToolMaterials.SAPPHIRE, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_axe"), new WMOAxeItem(WMOToolMaterials.SILVER, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_axe"), new WMOAxeItem(WMOToolMaterials.TIN, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_axe"), new WMOAxeItem(WMOToolMaterials.ALUMINUM, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_axe"), new WMOAxeItem(WMOToolMaterials.BRONZE, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_axe"), new WMOAxeItem(WMOToolMaterials.LEAD, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_axe"), new WMOAxeItem(WMOToolMaterials.LITHIUM, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_axe"), new WMOAxeItem(WMOToolMaterials.PLATINUM, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_axe"), new WMOAxeItem(WMOToolMaterials.RUBY, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_axe"), new WMOAxeItem(WMOToolMaterials.SAPPHIRE, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_axe"), new WMOAxeItem(WMOToolMaterials.SILVER, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_axe"), new WMOAxeItem(WMOToolMaterials.TIN, 1, 2f));
         /// Hoes
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_hoe"), new WMOHoeItem(WMOToolMaterials.ALUMINUM, 1, 2f,  new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_hoe"), new WMOHoeItem(WMOToolMaterials.BRONZE, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_hoe"), new WMOHoeItem(WMOToolMaterials.ALUMINUM, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_hoe"), new WMOHoeItem(WMOToolMaterials.BRONZE, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_hoe"), new WMOHoeItem(WMOToolMaterials.LEAD, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_hoe"), new WMOHoeItem(WMOToolMaterials.LITHIUM, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_hoe"), new WMOHoeItem(WMOToolMaterials.PLATINUM, 1, 2f));
     }
 
 }
