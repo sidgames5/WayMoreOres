@@ -4,6 +4,8 @@
 
 ## Updates
 
+- Tweak lithium tool material to make it more durable
+
 ## Removals
 
 ## Technical changes
