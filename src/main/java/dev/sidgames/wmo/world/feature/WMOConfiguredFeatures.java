@@ -1,7 +1,7 @@
 package dev.sidgames.wmo.world.feature;
 
 import dev.sidgames.wmo.block.Blocks;
-import dev.sidgames.wmo.Reference;
+import dev.sidgames.wmo.ReferenceConstants;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.feature.*;
 
@@ -29,6 +29,6 @@ public class WMOConfiguredFeatures {
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> URANIUM_ORE = ConfiguredFeatures.register("uranium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_URANIUM_ORES, 9));
 
     public static void registerConfiguredFeatures() {
-        Reference.LOGGER.info("Registering configured features");
+        ReferenceConstants.LOGGER.info("Registering configured features");
     }
 }
