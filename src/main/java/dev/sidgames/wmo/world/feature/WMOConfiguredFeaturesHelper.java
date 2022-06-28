@@ -7,7 +7,7 @@ import net.minecraft.world.gen.feature.*;
 
 import java.util.List;
 
-public class WMOConfiguredFeatures {
+public class WMOConfiguredFeaturesHelper {
     public static final List<OreFeatureConfig.Target> OVERWORLD_BAUXITE_ORES = List.of(OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, Blocks.BAUXITE_ORE.getDefaultState()), OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, Blocks.DEEPSLATE_BAUXITE_ORE.getDefaultState()));
     public static final List<OreFeatureConfig.Target> OVERWORLD_LEAD_ORES = List.of(OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, Blocks.LEAD_ORE.getDefaultState()), OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, Blocks.DEEPSLATE_LEAD_ORE.getDefaultState()));
     public static final List<OreFeatureConfig.Target> OVERWORLD_LITHIUM_ORES = List.of(OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, Blocks.LITHIUM_ORE.getDefaultState()), OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, Blocks.DEEPSLATE_LITHIUM_ORE.getDefaultState()));
