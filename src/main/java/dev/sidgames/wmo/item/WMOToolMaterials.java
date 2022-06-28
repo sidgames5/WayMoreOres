@@ -11,7 +11,7 @@ public enum WMOToolMaterials implements ToolMaterial {
     ALUMINUM(MiningLevels.IRON, 90, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.ALUMINUM_INGOT)),
     BRONZE(MiningLevels.IRON, 550, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.BRONZE_ALLOY)),
     LEAD(MiningLevels.IRON, 15, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.LEAD_INGOT)),
-    LITHIUM(MiningLevels.IRON, 2, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.LITHIUM_INGOT)),
+    LITHIUM(MiningLevels.IRON, 20, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.LITHIUM_INGOT)),
     PLATINUM(MiningLevels.IRON, 150, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.PLATINUM_INGOT)),
     RUBY(MiningLevels.IRON, 9, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.RUBY_GEM)),
     SAPPHIRE(MiningLevels.IRON, 9, 12.0F, 0.0F, 14, () -> Ingredient.ofItems(Items.SAPPHIRE_GEM)),
