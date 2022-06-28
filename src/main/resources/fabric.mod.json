@@ -27,7 +27,7 @@
     ]
   },
   "mixins": [
-    "wmo.mixins.json"
+    
   ],
 
   "depends": {
