@@ -8,7 +8,7 @@ This list contains the releases that are currently maintained.
 <thead>
 <tr>
 <th>Version</th>
-<th>Mod Loader</th>
+<th>Minecraftt Version</th>
 <th>Release Date</th>
 <th>Status</th>
 </tr>
@@ -16,62 +16,95 @@ This list contains the releases that are currently maintained.
 <tbody>
 <tr>
 <td>1.5.0-alpha.1 (22w26a)</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/27/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.4.0</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/25/2022</td>
 <td>✔️</td>
 </tr>
 <tr>
 <td>1.4.0-alpha.2 (22w25d)</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/26/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.4.0-alpha.1 (22w25c)</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/25/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.3.0</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/25/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.3.0-rc.1</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/25/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.3.0-alpha.2 (22w25b)</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/24/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.3.0-alpha.1 (22w25a)</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/24/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.2.1</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/24/2022</td>
 <td>❌</td>
 </tr>
 <tr>
 <td>1.2.0</td>
-<td>Fabric</td>
+<td>1.18.2</td>
 <td>6/23/2022</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+
+## Forge Mod Loader
+
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Minecraft Version</th>
+<th>Release Date</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.2.0</td>
+<td>1.16.5</td>
+<td>7/28/2021</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>1.1.0</td>
+<td>1.16.5</td>
+<td>7/26/2021</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>1.0.0</td>
+<td>1.16.5</td>
+<td>7/18/2021</td>
 <td>❌</td>
 </tr>
 </tbody>
