@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "i",
+    "/"
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:ruby_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wmo:ruby_sword",
+    "count": 1
+  }
+}
