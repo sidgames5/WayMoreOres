@@ -5,6 +5,7 @@
 ## Updates
 
 - Tweak lithium tool material to make it more durable
+- Tweak tool material mining speeds to make it more realistic
 
 ## Removals
 
@@ -67,6 +68,7 @@
 ## Updates
 
 - Tweak lithium tool material to make it more durable
+- Tweak tool material mining speeds to make it more realistic
 
 ## Removals
 
