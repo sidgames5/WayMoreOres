@@ -1,8 +1,9 @@
 package dev.sidgames.wmo.item.functional;
 
-import dev.sidgames.wmo.effects.LeadPoisoning;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -32,7 +33,7 @@ public class LeadIngot extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         // give the player the poison effect
-        LeadPoisoning.trigger(world, user, hand);
+        user.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20, 0));
         return super.use(world, user, hand);
     }
 }
