@@ -1,7 +1,7 @@
 package dev.sidgames.wmo.world.gen;
 
-public class WMOWorldGen {
+public class WMOWorldGenHelper {
     public static void generateModWorldGen() {
-        WMOOreGeneration.generateOres();
+        WMOOreGenerationHelper.generateOres();
     }
 }
