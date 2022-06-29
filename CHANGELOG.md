@@ -1,7 +1,25 @@
-# Changelog for 1.5.1
+# Changelog for 22w26b
+
+## Additions
+
+## Updates
+
+## Removals
 
 ## Bug Fixes
 
-- [#9](https://github.com/BasicCorruption/WayMoreOres/issues/9): Ruby, sapphire, and bronze tools don't work
-- [#11](https://github.com/BasicCorruption/WayMoreOres/issues/11): Pickaxes are underpowered
-- [#10](https://github.com/BasicCorruption/WayMoreOres/issues/11): Eating lead is programmed incorrectly
+- Tooltips do not show up on lead ingot
+
+## Technical Updates
+
+# Overall changelog for 1.6.0
+
+## Additions
+
+## Updates
+
+## Removals
+
+## Bug Fixes
+
+## Technical Updates
