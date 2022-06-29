@@ -1,6 +1,6 @@
 # WayMoreOres
 
-![Maintenance](https://img.shields.io/maintenance/yes/2022)
+![Maintenance](https://img.shields.io/maintenance/yes/2022?style=plastic)
 
 ![GitHub issues](https://img.shields.io/github/issues/basiccorruption/waymoreores?style=plastic)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/basiccorruption/waymoreores/build?style=plastic)
