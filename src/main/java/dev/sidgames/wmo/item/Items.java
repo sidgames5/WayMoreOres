@@ -6,10 +6,8 @@ import dev.sidgames.wmo.item.tool.WMOAxeItem;
 import dev.sidgames.wmo.item.tool.WMOHoeItem;
 import dev.sidgames.wmo.item.tool.WMOPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -98,6 +96,48 @@ public class Items {
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_sword"), new SwordItem(WMOToolMaterials.SAPPHIRE, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_sword"), new SwordItem(WMOToolMaterials.SILVER, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_sword"), new SwordItem(WMOToolMaterials.TIN, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
+
+        // Register armor here
+        /// Helmets
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_helmet"), new ArmorItem(WMOArmorMaterials.ALUMINUM, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_helmet"), new ArmorItem(WMOArmorMaterials.BRONZE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_helmet"), new ArmorItem(WMOArmorMaterials.LEAD, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_helmet"), new ArmorItem(WMOArmorMaterials.LITHIUM, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_helmet"), new ArmorItem(WMOArmorMaterials.PLATINUM, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_helmet"), new ArmorItem(WMOArmorMaterials.RUBY, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_helmet"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_helmet"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_helmet"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+        /// Chestplates
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_chestplate"), new ArmorItem(WMOArmorMaterials.ALUMINUM, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_chestplate"), new ArmorItem(WMOArmorMaterials.BRONZE, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_chestplate"), new ArmorItem(WMOArmorMaterials.LEAD, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_chestplate"), new ArmorItem(WMOArmorMaterials.LITHIUM, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_chestplate"), new ArmorItem(WMOArmorMaterials.PLATINUM, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_chestplate"), new ArmorItem(WMOArmorMaterials.RUBY, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_chestplate"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_chestplate"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_chestplate"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+        /// Leggings
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_leggings"), new ArmorItem(WMOArmorMaterials.ALUMINUM, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_leggings"), new ArmorItem(WMOArmorMaterials.BRONZE, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_leggings"), new ArmorItem(WMOArmorMaterials.LEAD, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_leggings"), new ArmorItem(WMOArmorMaterials.LITHIUM, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_leggings"), new ArmorItem(WMOArmorMaterials.PLATINUM, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_leggings"), new ArmorItem(WMOArmorMaterials.RUBY, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_leggings"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_leggings"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_leggings"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+        /// Boots
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_boots"), new ArmorItem(WMOArmorMaterials.ALUMINUM, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_boots"), new ArmorItem(WMOArmorMaterials.BRONZE, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_boots"), new ArmorItem(WMOArmorMaterials.LEAD, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_boots"), new ArmorItem(WMOArmorMaterials.LITHIUM, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_boots"), new ArmorItem(WMOArmorMaterials.PLATINUM, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_boots"), new ArmorItem(WMOArmorMaterials.RUBY, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_boots"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_boots"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_boots"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
     }
 
 }
