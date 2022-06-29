@@ -5,6 +5,7 @@ import dev.sidgames.wmo.item.functional.LeadIngot;
 import dev.sidgames.wmo.item.tool.WMOAxeItem;
 import dev.sidgames.wmo.item.tool.WMOHoeItem;
 import dev.sidgames.wmo.item.tool.WMOPickaxeItem;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ShovelItem;
@@ -15,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class Items {
     public static final Item ALUMINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item BRONZE_ALLOY = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item LEAD_INGOT = new LeadIngot(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item LEAD_INGOT = registerFoodItem("lead_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).food(WMOFoodComponents.LEAD_INGOT)));
     public static final Item LITHIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item PLATINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item SILVER_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
@@ -97,6 +98,10 @@ public class Items {
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_sword"), new SwordItem(WMOToolMaterials.SAPPHIRE, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_sword"), new SwordItem(WMOToolMaterials.SILVER, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_sword"), new SwordItem(WMOToolMaterials.TIN, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
+    }
+
+    private static Item registerFoodItem(String name, Item item) {
+        return Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, name), item);
     }
 
 }
