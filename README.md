@@ -16,6 +16,8 @@
 ![GitHub Discussions](https://img.shields.io/github/discussions/basiccorruption/waymoreores?style=flat-square&logo=github)
 ![Codacy grade](https://img.shields.io/codacy/grade/12526895a505498eb3904f406fac9f8c?style=flat-square)
 
+![Discord](https://img.shields.io/discord/991791197783851038?logo=discord&style=flat-square)
+
 WayMoreOres is a utility mod that adds many new ores to Minecraft!
 
 ## Setup
