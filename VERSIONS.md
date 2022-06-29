@@ -15,10 +15,16 @@ This list contains the releases that are currently maintained.
 </thead>
 <tbody>
 <tr>
-<td>1.5.0</td>
+<td>1.5.1</td>
 <td>1.18.2</td>
 <td>6/29/2022</td>
 <td>✔️</td>
+</tr>
+<tr>
+<td>1.5.0</td>
+<td>1.18.2</td>
+<td>6/29/2022</td>
+<td>❌</td>
 </tr>
 <tr>
 <td>1.5.0-alpha.1 (22w26a)</td>
