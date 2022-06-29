@@ -10,7 +10,15 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum WMOArmorMaterials implements ArmorMaterial {
-    ALUMINUM("aluminum", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.ALUMINUM_INGOT));
+    ALUMINUM("aluminum", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.ALUMINUM_INGOT)),
+    BRONZE("bronze", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.BRONZE_ALLOY)),
+    LEAD("lead", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.LEAD_INGOT)),
+    LITHIUM("lithium", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.LITHIUM_INGOT)),
+    PLATINUM("platinum", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.PLATINUM_INGOT)),
+    RUBY("ruby", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.RUBY)),
+    SAPPHIRE("sapphire", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SAPPHIRE)),
+    SILVER("silver", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SILVER_INGOT)),
+    TIN("tin", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.TIN_INGOT));
 
     private static final int[] BASE_DURABILITY;
     private final String name;
