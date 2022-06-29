@@ -2,6 +2,16 @@
 
 ## Additions
 
+- Added aluminum armor set
+- Added bronze armor set
+- Added lead armor set
+- Added lithium armor set
+- Added platinum armor set
+- Added ruby armor set
+- Added sapphire armor set
+- Added silver armor set
+- Added tin armor set
+
 ## Updates
 
 ## Removals
