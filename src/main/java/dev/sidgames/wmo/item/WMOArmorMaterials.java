@@ -15,8 +15,8 @@ public enum WMOArmorMaterials implements ArmorMaterial {
     LEAD("lead", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.LEAD_INGOT)),
     LITHIUM("lithium", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.LITHIUM_INGOT)),
     PLATINUM("platinum", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.PLATINUM_INGOT)),
-    RUBY("ruby", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.RUBY)),
-    SAPPHIRE("sapphire", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SAPPHIRE)),
+    RUBY("ruby", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.RUBY_GEM)),
+    SAPPHIRE("sapphire", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SAPPHIRE_GEM)),
     SILVER("silver", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SILVER_INGOT)),
     TIN("tin", 16, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.TIN_INGOT));
 
