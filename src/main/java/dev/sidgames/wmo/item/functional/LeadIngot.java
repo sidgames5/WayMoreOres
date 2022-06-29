@@ -29,12 +29,5 @@ public class LeadIngot extends Item {
             tooltip.add(new TranslatableText("item.wmo.lead_ingot.tooltip.hint"));
         }
     }
-
-    @Override
-    public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        // give the player the poison effect
-        user.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20, 0));
-        return super.use(world, user, hand);
-    }
 }
 
