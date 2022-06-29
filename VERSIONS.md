@@ -8,12 +8,18 @@ This list contains the releases that are currently maintained.
 <thead>
 <tr>
 <th>Version</th>
-<th>Minecraftt Version</th>
+<th>Minecraft Version</th>
 <th>Release Date</th>
 <th>Status</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>1.5.0</td>
+<td>1.18.2</td>
+<td>6/29/2022</td>
+<td>✔️</td>
+</tr>
 <tr>
 <td>1.5.0-alpha.1 (22w26a)</td>
 <td>1.18.2</td>
