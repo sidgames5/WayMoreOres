@@ -16,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class Items {
     public static final Item ALUMINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item BRONZE_ALLOY = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item LEAD_INGOT = registerFoodItem("lead_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).food(WMOFoodComponents.LEAD_INGOT)));
+    public static final Item LEAD_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).food(WMOFoodComponents.LEAD_INGOT));
     public static final Item LITHIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item PLATINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item SILVER_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
