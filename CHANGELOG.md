@@ -1,21 +1,4 @@
-# Changelog for 22w26b
-
-## Additions
-
-## Updates
-
-- Tweak lithium tool material to make it more durable
-- Tweak tool material mining speeds to make it more realistic
-
-## Removals
-
-## Technical changes
-
-- Remove unused tags
-
-## Bug Fixes
-
-# Overall changelog for 1.5.0
+# Changelog for 1.5.0
 
 ## Additions
 
@@ -70,11 +53,5 @@
 - Tweak lithium tool material to make it more durable
 - Tweak tool material mining speeds to make it more realistic
 
-## Removals
-
-## Technical changes
-
 - Clean up a huge amount of code
 - Remove unused tags
-
-## Bug Fixes
