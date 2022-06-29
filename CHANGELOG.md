@@ -4,3 +4,4 @@
 
 - [#9](https://github.com/BasicCorruption/WayMoreOres/issues/9): Ruby, sapphire, and bronze tools don't work
 - [#11](https://github.com/BasicCorruption/WayMoreOres/issues/11): Pickaxes are underpowered
+- [#10](https://github.com/BasicCorruption/WayMoreOres/issues/11): Eating lead is programmed incorrectly
