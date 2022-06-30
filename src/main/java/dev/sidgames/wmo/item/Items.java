@@ -47,55 +47,55 @@ public class Items {
 
         // Register tool items here
         /// Axes
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_axe"), new WMOAxeItem(WMOToolMaterials.ALUMINUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_axe"), new WMOAxeItem(WMOToolMaterials.BRONZE, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_axe"), new WMOAxeItem(WMOToolMaterials.LEAD, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_axe"), new WMOAxeItem(WMOToolMaterials.LITHIUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_axe"), new WMOAxeItem(WMOToolMaterials.PLATINUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_axe"), new WMOAxeItem(WMOToolMaterials.RUBY, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_axe"), new WMOAxeItem(WMOToolMaterials.SAPPHIRE, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_axe"), new WMOAxeItem(WMOToolMaterials.SILVER, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_axe"), new WMOAxeItem(WMOToolMaterials.TIN, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_axe"), new WMOAxeItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_axe"), new WMOAxeItem(WMOToolMaterials.BRONZE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_axe"), new WMOAxeItem(WMOToolMaterials.LEAD, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_axe"), new WMOAxeItem(WMOToolMaterials.LITHIUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_axe"), new WMOAxeItem(WMOToolMaterials.PLATINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_axe"), new WMOAxeItem(WMOToolMaterials.RUBY, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_axe"), new WMOAxeItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_axe"), new WMOAxeItem(WMOToolMaterials.SILVER, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_axe"), new WMOAxeItem(WMOToolMaterials.TIN, 2, 1.2f));
         /// Hoes
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_hoe"), new WMOHoeItem(WMOToolMaterials.ALUMINUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_hoe"), new WMOHoeItem(WMOToolMaterials.BRONZE, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_hoe"), new WMOHoeItem(WMOToolMaterials.LEAD, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_hoe"), new WMOHoeItem(WMOToolMaterials.LITHIUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_hoe"), new WMOHoeItem(WMOToolMaterials.PLATINUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_hoe"), new WMOHoeItem(WMOToolMaterials.RUBY, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_hoe"), new WMOHoeItem(WMOToolMaterials.SAPPHIRE, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_hoe"), new WMOHoeItem(WMOToolMaterials.SILVER, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_hoe"), new WMOHoeItem(WMOToolMaterials.TIN, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_hoe"), new WMOHoeItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_hoe"), new WMOHoeItem(WMOToolMaterials.BRONZE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_hoe"), new WMOHoeItem(WMOToolMaterials.LEAD, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_hoe"), new WMOHoeItem(WMOToolMaterials.LITHIUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_hoe"), new WMOHoeItem(WMOToolMaterials.PLATINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_hoe"), new WMOHoeItem(WMOToolMaterials.RUBY, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_hoe"), new WMOHoeItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_hoe"), new WMOHoeItem(WMOToolMaterials.SILVER, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_hoe"), new WMOHoeItem(WMOToolMaterials.TIN, 2, 1.2f));
         /// Pickaxes
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.ALUMINUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.BRONZE, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.LEAD, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.LITHIUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.PLATINUM, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.RUBY, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.SAPPHIRE, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.SILVER, 1, 2f));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.TIN, 1, 2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.BRONZE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.LEAD, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.LITHIUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.PLATINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.RUBY, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.SILVER, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.TIN, 2, 1.2f));
         /// Shovels
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_shovel"), new ShovelItem(WMOToolMaterials.ALUMINUM, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_shovel"), new ShovelItem(WMOToolMaterials.BRONZE, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_shovel"), new ShovelItem(WMOToolMaterials.LEAD, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_shovel"), new ShovelItem(WMOToolMaterials.LITHIUM, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_shovel"), new ShovelItem(WMOToolMaterials.PLATINUM, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_shovel"), new ShovelItem(WMOToolMaterials.RUBY, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_shovel"), new ShovelItem(WMOToolMaterials.SAPPHIRE, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_shovel"), new ShovelItem(WMOToolMaterials.SILVER, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_shovel"), new ShovelItem(WMOToolMaterials.TIN, 1, 2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_shovel"), new ShovelItem(WMOToolMaterials.ALUMINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_shovel"), new ShovelItem(WMOToolMaterials.BRONZE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_shovel"), new ShovelItem(WMOToolMaterials.LEAD, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_shovel"), new ShovelItem(WMOToolMaterials.LITHIUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_shovel"), new ShovelItem(WMOToolMaterials.PLATINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_shovel"), new ShovelItem(WMOToolMaterials.RUBY, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_shovel"), new ShovelItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_shovel"), new ShovelItem(WMOToolMaterials.SILVER, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_shovel"), new ShovelItem(WMOToolMaterials.TIN, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
         /// Swords
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_sword"), new SwordItem(WMOToolMaterials.ALUMINUM, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_sword"), new SwordItem(WMOToolMaterials.BRONZE, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_sword"), new SwordItem(WMOToolMaterials.LEAD, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_sword"), new SwordItem(WMOToolMaterials.LITHIUM, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_sword"), new SwordItem(WMOToolMaterials.PLATINUM, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_sword"), new SwordItem(WMOToolMaterials.RUBY, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_sword"), new SwordItem(WMOToolMaterials.SAPPHIRE, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_sword"), new SwordItem(WMOToolMaterials.SILVER, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_sword"), new SwordItem(WMOToolMaterials.TIN, 1, 2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "aluminum_sword"), new SwordItem(WMOToolMaterials.ALUMINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "bronze_sword"), new SwordItem(WMOToolMaterials.BRONZE, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lead_sword"), new SwordItem(WMOToolMaterials.LEAD, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "lithium_sword"), new SwordItem(WMOToolMaterials.LITHIUM, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "platinum_sword"), new SwordItem(WMOToolMaterials.PLATINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "ruby_sword"), new SwordItem(WMOToolMaterials.RUBY, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_sword"), new SwordItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_sword"), new SwordItem(WMOToolMaterials.SILVER, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_sword"), new SwordItem(WMOToolMaterials.TIN, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
 
         // Register armor here
         /// Helmets
