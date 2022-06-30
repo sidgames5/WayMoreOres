@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:sapphire"
+    }
+  },
+  "result": {
+    "item": "wmo:sapphire_helmet",
+    "count": 1
+  }
+}
