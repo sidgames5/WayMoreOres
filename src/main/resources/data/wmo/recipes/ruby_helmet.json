@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:ruby"
+    }
+  },
+  "result": {
+    "item": "wmo:ruby_helmet",
+    "count": 1
+  }
+}
