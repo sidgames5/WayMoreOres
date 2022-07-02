@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "wmo:aluminum_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "wmo:uranium_pickaxe"
+    },
+    {
+      "item": "wmo:uranium_shovel"
+    },
+    {
+      "item": "wmo:uranium_axe"
+    },
+    {
+      "item": "wmo:uranium_hoe"
+    },
+    {
+      "item": "wmo:uranium_sword"
+    },
+    {
+      "item": "wmo:uranium_helmet"
+    },
+    {
+      "item": "wmo:uranium_chestplate"
+    },
+    {
+      "item": "wmo:uranium_leggings"
+    },
+    {
+      "item": "wmo:uranium_boots"
+    },
+    {
+      "item": "wmo:uranium_horse_armor"
+    }
+  ],
+  "result": "wmo:uranium_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}

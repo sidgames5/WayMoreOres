@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lithium_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wmo:lithium_nugget"
+    }
+  },
+  "result": {
+    "item": "wmo:lithium_ingot"
+  }
+}

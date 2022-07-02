@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "wmo:tin_pickaxe"
+    },
+    {
+      "item": "wmo:tin_shovel"
+    },
+    {
+      "item": "wmo:tin_axe"
+    },
+    {
+      "item": "wmo:tin_hoe"
+    },
+    {
+      "item": "wmo:tin_sword"
+    },
+    {
+      "item": "wmo:tin_helmet"
+    },
+    {
+      "item": "wmo:tin_chestplate"
+    },
+    {
+      "item": "wmo:tin_leggings"
+    },
+    {
+      "item": "wmo:tin_boots"
+    },
+    {
+      "item": "wmo:tin_horse_armor"
+    }
+  ],
+  "result": "wmo:tin_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}

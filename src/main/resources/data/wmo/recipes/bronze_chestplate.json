@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "wmo:bronze_chestplate",
+    "count": 1
+  }
+}

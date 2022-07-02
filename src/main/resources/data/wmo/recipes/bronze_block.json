@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wmo:bronze_alloy"
+    }
+  },
+  "result": {
+    "item": "wmo:bronze_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "wmo:platinum_block",
+    "wmo:platinum_ore",
+    "wmo:deepslate_platinum_ore",
+    "wmo:uranium_block",
+    "wmo:uranium_ore",
+    "wmo:deepslate_uranium_ore"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:tin_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wmo:tin_pickaxe",
+    "count": 1
+  }
+}

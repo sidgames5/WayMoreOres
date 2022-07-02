@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "platinum_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wmo:platinum_nugget"
+    }
+  },
+  "result": {
+    "item": "wmo:platinum_ingot"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "wmo:bronze_boots",
+    "count": 1
+  }
+}

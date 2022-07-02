@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wmo:ruby"
+    }
+  },
+  "result": {
+    "item": "wmo:ruby_block"
+  }
+}

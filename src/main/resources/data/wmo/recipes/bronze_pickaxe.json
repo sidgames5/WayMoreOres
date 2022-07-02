@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "i": {
+      "item": "wmo:bronze_alloy"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wmo:bronze_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wmo:block/deepslate_lithium_ore"
+  }
+}

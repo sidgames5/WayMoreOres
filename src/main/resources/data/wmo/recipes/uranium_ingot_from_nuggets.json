@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uranium_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wmo:uranium_nugget"
+    }
+  },
+  "result": {
+    "item": "wmo:uranium_ingot"
+  }
+}
