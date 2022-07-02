@@ -4,6 +4,10 @@ This list contains the releases that are currently maintained.
 
 ## Forge Mod Loader
 
+### MC 1.18
+
+### MC 1.16
+
 <table>
 <thead>
 <tr>
