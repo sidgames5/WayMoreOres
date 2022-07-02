@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = 'forge1.12.2-v1.3.0'
+version = 'forge1.12.2-v1.0.0'
 group = 'dev.sidgames.wmo' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'wmo'
 
