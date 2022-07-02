@@ -6,6 +6,25 @@ This list contains the releases that are currently maintained.
 
 ### MC 1.18
 
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Minecraft Version</th>
+<th>Release Date</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>22w26b</td>
+<td>1.18.2</td>
+<td>7/2/2022</td>
+<td>✔️</td>
+</tr>
+</tbody>
+</table>
+
 ### MC 1.16
 
 <table>
