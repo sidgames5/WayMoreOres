@@ -48,8 +48,6 @@ public class ModItems {
         LEAD_NUGGET = ITEMS.register("lead_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         LITHIUM_NUGGET = ITEMS.register("lithium_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         PLATINUM_NUGGET = ITEMS.register("platinum_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-        RUBY_NUGGET = ITEMS.register("ruby_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-        SAPPHIRE_NUGGET = ITEMS.register("sapphire_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         TIN_NUGGET = ITEMS.register("tin_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         URANIUM_NUGGET = ITEMS.register("uranium_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
