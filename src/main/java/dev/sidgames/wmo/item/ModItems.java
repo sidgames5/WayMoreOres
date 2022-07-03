@@ -1,6 +1,7 @@
 package dev.sidgames.wmo.item;
 
 import dev.sidgames.wmo.WayMoreOres;
+import dev.sidgames.wmo.item.advanced.UraniumRod;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -53,7 +54,7 @@ public class ModItems {
         TIN_NUGGET = ITEMS.register("tin_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         URANIUM_NUGGET = ITEMS.register("uranium_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
-        URANIUM_ROD = ITEMS.register("uranium_rod", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+        URANIUM_ROD = ITEMS.register("uranium_rod", () -> new UraniumRod(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
         ITEMS.register(eventBus);
     }
