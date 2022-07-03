@@ -1,6 +1,7 @@
 package dev.sidgames.wmo;
 
 import com.mojang.logging.LogUtils;
+import dev.sidgames.wmo.block.ModBlocks;
 import dev.sidgames.wmo.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,7 @@ public class WayMoreOres {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
