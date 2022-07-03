@@ -36,7 +36,7 @@ public class ModItems {
     public static void register(IEventBus eventBus) {
         ALUMINUM_INGOT = ITEMS.register("aluminum_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         BRONZE_ALLOY = ITEMS.register("bronze_alloy", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-        LEAD_INGOT = ITEMS.register("lead_ingot", () -> new LeadIngot(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+        LEAD_INGOT = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).food(ModFoods.LEAD_INGOT)));
         LITHIUM_INGOT = ITEMS.register("lithium_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         RUBY_GEM = ITEMS.register("ruby", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
