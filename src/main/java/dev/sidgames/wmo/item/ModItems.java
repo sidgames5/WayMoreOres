@@ -31,6 +31,8 @@ public class ModItems {
     public static RegistryObject<Item> TIN_NUGGET;
     public static RegistryObject<Item> URANIUM_NUGGET;
 
+    public static RegistryObject<Item> URANIUM_ROD;
+
     public static void register(IEventBus eventBus) {
         ALUMINUM_INGOT = ITEMS.register("aluminum_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         BRONZE_ALLOY = ITEMS.register("bronze_alloy", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
@@ -50,6 +52,8 @@ public class ModItems {
         SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         TIN_NUGGET = ITEMS.register("tin_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         URANIUM_NUGGET = ITEMS.register("uranium_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+        URANIUM_ROD = ITEMS.register("uranium_rod", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
         ITEMS.register(eventBus);
     }
