@@ -12,7 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WayMoreOres.MOD_ID);
 
     public static RegistryObject<Item> ALUMINUM_INGOT;
-    public static RegistryObject<Item> BRONZE_INGOT;
+    public static RegistryObject<Item> BRONZE_ALLOY;
     public static RegistryObject<Item> LEAD_INGOT;
     public static RegistryObject<Item> LITHIUM_INGOT;
     public static RegistryObject<Item> PLATINUM_INGOT;
@@ -33,7 +33,7 @@ public class ModItems {
 
     public static void register(IEventBus eventBus) {
         ALUMINUM_INGOT = ITEMS.register("aluminum_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-        BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+        BRONZE_ALLOY = ITEMS.register("bronze_alloy", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         LEAD_INGOT = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         LITHIUM_INGOT = ITEMS.register("lithium_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
@@ -44,7 +44,6 @@ public class ModItems {
         URANIUM_INGOT = ITEMS.register("uranium_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
         ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-        BRONZE_NUGGET = ITEMS.register("bronze_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         LEAD_NUGGET = ITEMS.register("lead_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         LITHIUM_NUGGET = ITEMS.register("lithium_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
         PLATINUM_NUGGET = ITEMS.register("platinum_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
