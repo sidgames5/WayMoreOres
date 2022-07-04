@@ -142,6 +142,9 @@ public class Items {
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_boots"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_boots"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_boots"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+
+        // special items
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "technoblades_crown"), new ArmorItem(ArmorMaterials.GOLD, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
     }
 
 }
