@@ -18,7 +18,8 @@ public enum WMOArmorMaterials implements ArmorMaterial {
     RUBY("ruby", 6, new int[]{3, 3, 3, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.RUBY_GEM)),
     SAPPHIRE("sapphire", 6, new int[]{3, 3, 3, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SAPPHIRE_GEM)),
     SILVER("silver", 9, new int[]{3, 3, 3, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SILVER_INGOT)),
-    TIN("tin", 11, new int[]{3, 3, 3, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.TIN_INGOT));
+    TIN("tin", 11, new int[]{3, 3, 3, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.TIN_INGOT)),
+    TECHNOBLADE("technoblade", 17, new int[]{3, 3, 3, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f, 0.0f, () -> Ingredient.ofItems(net.minecraft.item.Items.GOLD_INGOT));
 
     private static final int[] BASE_DURABILITY;
     private final String name;
