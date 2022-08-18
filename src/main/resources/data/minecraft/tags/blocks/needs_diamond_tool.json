@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "wmo:enderite_block",
+    "wmo:enderite_ore",
     "wmo:platinum_block",
     "wmo:platinum_ore",
     "wmo:deepslate_platinum_ore",
