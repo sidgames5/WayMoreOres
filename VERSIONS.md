@@ -16,9 +16,15 @@ This list contains the releases that are currently maintained.
 <tbody>
 <tr>
 <td>1.5.1</td>
+<td>1.19</td>
+<td>8/17/2022</td>
+<td>✔️</td>
+</tr>
+<tr>
+<td>1.5.1</td>
 <td>1.18.2</td>
 <td>6/29/2022</td>
-<td>✔️</td>
+<td>❌</td>
 </tr>
 <tr>
 <td>1.5.0</td>
@@ -36,7 +42,7 @@ This list contains the releases that are currently maintained.
 <td>1.4.0</td>
 <td>1.18.2</td>
 <td>6/25/2022</td>
-<td>✔️</td>
+<td>❌</td>
 </tr>
 <tr>
 <td>1.4.0-alpha.2 (22w25d)</td>
