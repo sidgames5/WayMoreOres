@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "enderite",
+  "ingredients": [
+    {
+      "item": "wmo:enderite_block"
+    }
+  ],
+  "result": {
+    "item": "wmo:enderite_shard",
+    "count": 4
+  }
+}

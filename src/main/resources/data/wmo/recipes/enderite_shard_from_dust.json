@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "enderite",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wmo:enderite_dust"
+    }
+  },
+  "result": {
+    "item": "wmo:enderite_shard"
+  }
+}

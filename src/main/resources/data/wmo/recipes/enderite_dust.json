@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wmo:enderite_shard"
+    }
+  ],
+  "result": {
+    "item": "wmo:enderite_dust",
+    "count": 4
+  }
+}

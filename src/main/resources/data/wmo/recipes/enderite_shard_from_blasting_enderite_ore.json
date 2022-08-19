@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "enderite",
+  "ingredient": {
+    "item": "wmo:enderite_ore"
+  },
+  "result": "wmo:enderite_dust",
+  "experience": 2,
+  "cookingtime": 200
+}
