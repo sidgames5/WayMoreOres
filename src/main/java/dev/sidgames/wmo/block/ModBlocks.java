@@ -10,7 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class Blocks {
+public class ModBlocks {
     public static Block ALUMINUM_BLOCK;
     public static Block BAUXITE_ORE;
     public static Block BRONZE_BLOCK;
@@ -66,15 +66,15 @@ public class Blocks {
         TIN_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "tin_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         URANIUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "uranium_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         URANIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "uranium_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
-        DEEPSLATE_BAUXITE_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_bauxite_ore"), new Block(FabricBlockSettings.copy(Blocks.BAUXITE_ORE)));
-        DEEPSLATE_LEAD_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_lead_ore"), new Block(FabricBlockSettings.copy(Blocks.LEAD_ORE)));
-        DEEPSLATE_LITHIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_lithium_ore"), new Block(FabricBlockSettings.copy(Blocks.LITHIUM_ORE)));
-        DEEPSLATE_PLATINUM_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_platinum_ore"), new Block(FabricBlockSettings.copy(Blocks.PLATINUM_ORE)));
-        DEEPSLATE_RUBY_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_ruby_ore"), new Block(FabricBlockSettings.copy(Blocks.RUBY_ORE)));
-        DEEPSLATE_SAPPHIRE_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_sapphire_ore"), new Block(FabricBlockSettings.copy(Blocks.SAPPHIRE_ORE)));
-        DEEPSLATE_SILVER_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_silver_ore"), new Block(FabricBlockSettings.copy(Blocks.SILVER_ORE)));
-        DEEPSLATE_TIN_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_tin_ore"), new Block(FabricBlockSettings.copy(Blocks.TIN_ORE)));
-        DEEPSLATE_URANIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_uranium_ore"), new Block(FabricBlockSettings.copy(Blocks.URANIUM_ORE)));
+        DEEPSLATE_BAUXITE_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_bauxite_ore"), new Block(FabricBlockSettings.copy(ModBlocks.BAUXITE_ORE)));
+        DEEPSLATE_LEAD_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_lead_ore"), new Block(FabricBlockSettings.copy(ModBlocks.LEAD_ORE)));
+        DEEPSLATE_LITHIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_lithium_ore"), new Block(FabricBlockSettings.copy(ModBlocks.LITHIUM_ORE)));
+        DEEPSLATE_PLATINUM_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_platinum_ore"), new Block(FabricBlockSettings.copy(ModBlocks.PLATINUM_ORE)));
+        DEEPSLATE_RUBY_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_ruby_ore"), new Block(FabricBlockSettings.copy(ModBlocks.RUBY_ORE)));
+        DEEPSLATE_SAPPHIRE_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_sapphire_ore"), new Block(FabricBlockSettings.copy(ModBlocks.SAPPHIRE_ORE)));
+        DEEPSLATE_SILVER_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_silver_ore"), new Block(FabricBlockSettings.copy(ModBlocks.SILVER_ORE)));
+        DEEPSLATE_TIN_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_tin_ore"), new Block(FabricBlockSettings.copy(ModBlocks.TIN_ORE)));
+        DEEPSLATE_URANIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "deepslate_uranium_ore"), new Block(FabricBlockSettings.copy(ModBlocks.URANIUM_ORE)));
 
         registerBlockItems();
     }

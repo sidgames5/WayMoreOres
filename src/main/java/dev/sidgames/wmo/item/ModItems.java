@@ -11,7 +11,7 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class Items {
+public class ModItems {
     public static final Item ALUMINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item BRONZE_ALLOY = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item ENDERITE_DUST = new Item(new Item.Settings().group(ItemGroup.MATERIALS));

@@ -24,6 +24,7 @@
 ## Technical Updates
 
 - Remove Fabric API dependency
+- Refactor Blocks and Items class to make it easier to integrate into other mods
 
 # Overall changelog for 1.6.0
 
