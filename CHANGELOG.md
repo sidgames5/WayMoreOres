@@ -23,6 +23,8 @@
 
 ## Technical Updates
 
+- Remove Fabric API dependency
+
 # Overall changelog for 1.6.0
 
 ## Additions
