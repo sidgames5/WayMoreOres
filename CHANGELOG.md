@@ -39,6 +39,7 @@
 - Added sapphire armor set
 - Added silver armor set
 - Added tin armor set
+- Added enderite
 
 ## Updates
 
@@ -49,3 +50,6 @@
 - Tooltips do not show up on lead ingot
 
 ## Technical Updates
+
+- Remove Fabric API dependency
+- Refactor Blocks and Items class to make it easier to integrate into other mods
