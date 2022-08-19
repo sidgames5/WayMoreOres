@@ -11,6 +11,7 @@
 - Added sapphire armor set
 - Added silver armor set
 - Added tin armor set
+- Added enderite
 
 ## Updates
 
