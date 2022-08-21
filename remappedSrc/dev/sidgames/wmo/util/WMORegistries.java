@@ -1,6 +1,6 @@
 package dev.sidgames.wmo.util;
 
-import dev.sidgames.wmo.item.Items;
+import dev.sidgames.wmo.item.ModItems;
 import dev.sidgames.wmo.ReferenceConstants;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 
@@ -15,6 +15,6 @@ public class WMORegistries {
         ReferenceConstants.LOGGER.info("Registering fuels...");
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
-        registry.add(Items.URANIUM_ROD, 800);
+        registry.add(ModItems.URANIUM_ROD, 800);
     }
 }

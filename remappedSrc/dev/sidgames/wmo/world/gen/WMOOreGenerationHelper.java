@@ -8,7 +8,7 @@ import net.minecraft.world.gen.GenerationStep;
 public class WMOOreGenerationHelper {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.BAUXITE_ORE_PLACED.getKey().get());
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.ENDERITE_ORE_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.ENDERITE_ORE_PLACED.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.LEAD_ORE_PLACED.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.LITHIUM_ORE_PLACED.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.PLATINUM_ORE_PLACED.getKey().get());

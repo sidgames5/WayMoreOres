@@ -5,7 +5,6 @@ import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -19,9 +18,9 @@ public class LeadIngot extends Item {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if (Screen.hasShiftDown()) {
-            tooltip.add(new TranslatableText("item.wmo.lead_ingot.tooltip.shift"));
+            tooltip.add(Text.translatable("item.wmo.lead_ingot.tooltip.shift"));
         } else {
-            tooltip.add(new TranslatableText("item.wmo.lead_ingot.tooltip.hint"));
+            tooltip.add(Text.translatable("item.wmo.lead_ingot.tooltip.hint"));
         }
     }
 }

@@ -8,10 +8,10 @@ public class ReferenceConstants {
 
     public static final String MOD_ID = "wmo";
     public static final String MOD_NAME = "Way More Ores";
-    public static final String MOD_VERSION = "1.6.0-alpha.1";
+    public static final String MOD_VERSION = "1.6.0";
     public static final String[] MOD_AUTHOR = {"SidGames5", "LeWolfYT"};
 
-    public static final String MINECRAFT_VERSION = "1.18.2";
-    public static final String LOADER_VERSION = "0.14.8";
-    public static final String YARN_MAPPINGS = "1.18.2+build.3";
+    public static final String MINECRAFT_VERSION = "1.19";
+    public static final String LOADER_VERSION = "0.14.9";
+    public static final String YARN_MAPPINGS = "1.19+build.4";
 }
