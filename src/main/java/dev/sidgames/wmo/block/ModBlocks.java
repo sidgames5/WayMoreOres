@@ -64,7 +64,7 @@ public class ModBlocks {
         SAPPHIRE_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "sapphire_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         SILVER_BLOCK = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "silver_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         SILVER_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "silver_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
-        //STARLITE_BLOCK = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "starlite_block"), new Block(FabricBlockSettings.of(Material.AMETHYST).hardness(5.0F).resistance(10.0F).requiresTool()));
+        STARLITE_BLOCK = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "starlite_block"), new Block(FabricBlockSettings.of(Material.AMETHYST).hardness(5.0F).resistance(10.0F).requiresTool()));
         TIN_BLOCK = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "tin_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         TIN_ORE = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "tin_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         URANIUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(ReferenceConstants.MOD_ID, "uranium_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
@@ -101,7 +101,7 @@ public class ModBlocks {
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire_ore"), new BlockItem(SAPPHIRE_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_block"), new BlockItem(SILVER_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_ore"), new BlockItem(SILVER_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
-        //Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "starlite_block"), new BlockItem(STARLITE_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "starlite_block"), new BlockItem(STARLITE_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_block"), new BlockItem(TIN_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_ore"), new BlockItem(TIN_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "uranium_block"), new BlockItem(URANIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));

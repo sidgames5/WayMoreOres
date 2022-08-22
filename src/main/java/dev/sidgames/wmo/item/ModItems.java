@@ -44,8 +44,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "sapphire"), SAPPHIRE_GEM);
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_ingot"), SILVER_INGOT);
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "silver_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
-        //Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "starlite_shard"), STARLITE_SHARD);
-        //Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "starlite_dust"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "starlite_shard"), STARLITE_SHARD);
+        Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "starlite_dust"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_ingot"), TIN_INGOT);
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "tin_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(ReferenceConstants.MOD_ID, "uranium_ingot"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));

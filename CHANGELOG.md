@@ -1,6 +1,25 @@
-# Changelog for 1.6.1
+# Changelog for 22w34a
+
+## Additions
+
+- Added starlite
+
+## Updates
+
+## Removals
 
 ## Bug Fixes
 
-- Language translations are empty for all enderite items
-- Item models missing for armor textures
+## Technical Updates
+
+# Overall changelog for 1.7.0
+
+## Additions
+
+## Updates
+
+## Removals
+
+## Bug Fixes
+
+## Technical Updates
