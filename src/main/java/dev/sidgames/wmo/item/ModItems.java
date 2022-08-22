@@ -20,7 +20,7 @@ public class ModItems {
     public static final Item LITHIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item PLATINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item SILVER_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    //public static final Item STARLITE_SHARD = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item STARLITE_SHARD = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item TIN_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item RUBY_GEM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item SAPPHIRE_GEM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
