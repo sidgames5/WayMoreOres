@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "starlite",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wmo:starlite_dust"
+    }
+  },
+  "result": {
+    "item": "wmo:starlite_shard"
+  }
+}

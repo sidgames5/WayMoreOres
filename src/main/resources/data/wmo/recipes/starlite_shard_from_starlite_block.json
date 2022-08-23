@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "starlite",
+  "ingredients": [
+    {
+      "item": "wmo:starlite_block"
+    }
+  ],
+  "result": {
+    "item": "wmo:starlite_shard",
+    "count": 4
+  }
+}
