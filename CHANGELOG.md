@@ -10,6 +10,8 @@
 
 ## Bug Fixes
 
+- ![#17](https://github.com/BasicCorruption/WayMoreOres/issues/17): Enderite Shard texture missing
+
 ## Technical Updates
 
 - Updated Minecraft (1.19 -> 1.19.2)
