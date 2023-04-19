@@ -1,5 +1,9 @@
 # WayMoreOres
 
+## BIG ANNOUNCEMENT
+
+After almost a year of no updates, development has returned! I will start to release snapshots for 1.7 starting on the week of April 24th.
+
 ![Maintenance](https://img.shields.io/maintenance/yes/2023?style=for-the-badge)
 
 ![GitHub issues](https://img.shields.io/github/issues/basiccorruption/waymoreores?style=flat-square&logo=github)
