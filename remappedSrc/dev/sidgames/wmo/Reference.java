@@ -11,7 +11,7 @@ public class Reference {
     public static final String MOD_VERSION = "23w16a";
     public static final String[] MOD_AUTHOR = {"SidGames5", "LeWolfYT"};
 
-    public static final String MINECRAFT_VERSION = "1.19";
-    public static final String LOADER_VERSION = "0.14.9";
-    public static final String YARN_MAPPINGS = "1.19+build.4";
+    public static final String MINECRAFT_VERSION = "1.19.4";
+    public static final String LOADER_VERSION = "0.14.19";
+    public static final String YARN_MAPPINGS = "1.19.4+build.2";
 }
