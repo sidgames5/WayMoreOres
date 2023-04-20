@@ -3,14 +3,14 @@
   "id": "wmo",
   "version": "${version}",
 
-  "name": "WaymoreOres",
+  "name": "WayMoreOres",
   "description": "This mod adds a lot of new ores to the game.",
   "authors": [
     "SidGames5",
     "LeWolfYT"
   ],
   "contact": {
-    "homepage": "https://sidgames.dev/waymoreores/",
+    "homepage": "https://basiccorruption.github.io/waymoreores/",
     "sources": "https://github.com/BasicCorruption/WaymoreOres"
   },
 
