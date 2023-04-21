@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "wmo:cobalt_pickaxe"
+    },
+    {
+      "item": "wmo:cobalt_shovel"
+    },
+    {
+      "item": "wmo:cobalt_axe"
+    },
+    {
+      "item": "wmo:cobalt_hoe"
+    },
+    {
+      "item": "wmo:cobalt_sword"
+    },
+    {
+      "item": "wmo:cobalt_helmet"
+    },
+    {
+      "item": "wmo:cobalt_chestplate"
+    },
+    {
+      "item": "wmo:cobalt_leggings"
+    },
+    {
+      "item": "wmo:cobalt_boots"
+    },
+    {
+      "item": "wmo:cobalt_horse_armor"
+    }
+  ],
+  "result": "wmo:cobalt_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

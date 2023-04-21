@@ -142,5 +142,9 @@
     "block.wmo.enderite_block": "Enderite Block",
     "item.wmo.starlite_shard": "Starlite Shard",
     "item.wmo.starlite_dust": "Starlite Dust",
-    "block.wmo.starlite_block": "Starlite Block"
+    "block.wmo.starlite_block": "Starlite Block",
+    "block.wmo.cobalt_ore": "Cobalt Ore",
+    "block.wmo.cobalt_block": "Cobalt Block",
+    "item.wmo.cobalt_ingot": "Cobalt Ingot",
+    "item.wmo.cobalt_nugget": "Cobalt Nugget"
 }
