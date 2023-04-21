@@ -7,6 +7,7 @@
 ## Updates
 
 - Changed the logo to match what is on CurseForge
+- Changed enderite shard texture
 
 ## Removals
 
