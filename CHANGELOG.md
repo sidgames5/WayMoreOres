@@ -16,10 +16,11 @@
 
 ## Technical Updates
 
-- Updated Minecraft (1.19 -> 1.19.2)
-- Updated Yarn mappings (1.19+build.4 -> 1.19.2+build.28)
+- Updated Minecraft (1.19 -> 1.19.3)
+- Updated Yarn mappings (1.19+build.4 -> 1.19.3+build.5)
 - Updated loader version (0.14.9 -> 0.14.19)
-- Updated Fabric API (0.58.0+1.19 -> 0.76.0+1.19.2)
+- Updated Fabric API (0.58.0+1.19 -> 0.76.1+1.19.3)
+- Updated Loom (0.12-SNAPSHOT -> 1.0-SNAPSHOT)
 - Changed all ingot and nugget registries to constants in ModItems class
 - Move registerFuels into its own class
 
