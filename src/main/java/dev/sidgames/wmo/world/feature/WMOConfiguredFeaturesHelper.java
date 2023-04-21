@@ -18,6 +18,7 @@ public class WMOConfiguredFeaturesHelper {
     public static final List<OreFeatureConfig.Target> OVERWORLD_SILVER_ORES = List.of(OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SILVER_ORE.getDefaultState()), OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_SILVER_ORE.getDefaultState()));
     public static final List<OreFeatureConfig.Target> OVERWORLD_TIN_ORES = List.of(OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TIN_ORE.getDefaultState()), OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TIN_ORE.getDefaultState()));
     public static final List<OreFeatureConfig.Target> OVERWORLD_URANIUM_ORES = List.of(OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.URANIUM_ORE.getDefaultState()), OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_URANIUM_ORE.getDefaultState()));
+    public static final List<OreFeatureConfig.Target> OVERWORLD_COBALT_ORES =  List.of(OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.COBALT_ORE.getDefaultState()));
     public static final List<OreFeatureConfig.Target> END_ENDERITE_ORES = List.of(OreFeatureConfig.createTarget(new BlockMatchRuleTest(net.minecraft.block.Blocks.END_STONE), ModBlocks.ENDERITE_ORE.getDefaultState()));
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> BAUXITE_ORE = ConfiguredFeatures.register("bauxite_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_BAUXITE_ORES, 2));
@@ -30,6 +31,7 @@ public class WMOConfiguredFeaturesHelper {
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SILVER_ORE = ConfiguredFeatures.register("silver_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_SILVER_ORES, 9));
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> TIN_ORE = ConfiguredFeatures.register("tin_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_TIN_ORES, 9));
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> URANIUM_ORE = ConfiguredFeatures.register("uranium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_URANIUM_ORES, 9));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> COBALT_ORE = ConfiguredFeatures.register("cobalt_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_COBALT_ORES, 8));
 
     public static void registerConfiguredFeatures() {
         Reference.LOGGER.info("Registering configured features");
