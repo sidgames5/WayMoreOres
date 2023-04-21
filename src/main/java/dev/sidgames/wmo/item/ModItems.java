@@ -58,17 +58,17 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire"), SAPPHIRE_GEM);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_ingot"), SILVER_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_nugget"), SILVER_NUGGET);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_shard"), STARLITE_SHARD);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_dust"), STARLITE_DUST);
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_shard"), STARLITE_SHARD);
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_dust"), STARLITE_DUST);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_ingot"), TIN_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_nugget"), TIN_NUGGET);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"), URANIUM_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_nugget"), URANIUM_NUGGET);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), URANIUM_ROD);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), ZINC_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), ZINC_ORE);
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), ZINC_BLOCK);
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), ZINC_ORE);
 
         // Register tool items here
         /// Axes

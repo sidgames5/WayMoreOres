@@ -109,15 +109,15 @@ public class ModBlocks {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_ore"), new BlockItem(SAPPHIRE_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_block"), new BlockItem(SILVER_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_ore"), new BlockItem(SILVER_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_block"), new BlockItem(STARLITE_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_block"), new BlockItem(STARLITE_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_block"), new BlockItem(TIN_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_ore"), new BlockItem(TIN_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_block"), new BlockItem(URANIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ore"), new BlockItem(URANIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_block"), new BlockItem(COBALT_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ore"), new BlockItem(COBALT_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), new BlockItem(ZINC_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), new BlockItem(ZINC_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), new BlockItem(ZINC_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), new BlockItem(ZINC_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_bauxite_ore"), new BlockItem(DEEPSLATE_BAUXITE_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_lead_ore"), new BlockItem(DEEPSLATE_LEAD_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
