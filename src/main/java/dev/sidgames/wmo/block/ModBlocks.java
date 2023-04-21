@@ -44,8 +44,8 @@ public class ModBlocks {
     public static Block DEEPSLATE_TIN_ORE;
     public static Block DEEPSLATE_SAPPHIRE_ORE;
     public static Block DEEPSLATE_URANIUM_ORE;
-    //public static Block COBALT_BLOCK;
-    //public static Block COBALT_ORE;
+    public static Block COBALT_BLOCK;
+    public static Block COBALT_ORE;
 
     public static void registerBlocks() {
         // Register blocks here
@@ -71,8 +71,8 @@ public class ModBlocks {
         TIN_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "tin_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         URANIUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "uranium_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         URANIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "uranium_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
-        //COBALT_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "cobalt_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
-        //COBALT_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "cobalt_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
+        COBALT_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "cobalt_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
+        COBALT_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "cobalt_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
 
         DEEPSLATE_BAUXITE_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_bauxite_ore"), new Block(FabricBlockSettings.copy(ModBlocks.BAUXITE_ORE)));
         DEEPSLATE_LEAD_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_lead_ore"), new Block(FabricBlockSettings.copy(ModBlocks.LEAD_ORE)));

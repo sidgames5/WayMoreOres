@@ -34,8 +34,8 @@ public class ModItems {
     public static final Item TIN_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item URANIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item URANIUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    //private static final Item COBALT_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    //private static final Item COBALT_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    private static final Item COBALT_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    private static final Item COBALT_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
 
     public static void registerItems() {
@@ -62,8 +62,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"), URANIUM_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_nugget"), URANIUM_NUGGET);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), URANIUM_ROD);
-        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
-        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
 
         // Register tool items here
         /// Axes
