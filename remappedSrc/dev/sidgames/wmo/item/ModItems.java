@@ -8,8 +8,8 @@ import dev.sidgames.wmo.item.tool.WMOPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item ALUMINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
@@ -25,45 +25,32 @@ public class ModItems {
     public static final Item RUBY_GEM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item SAPPHIRE_GEM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item URANIUM_ROD = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item ALUMINUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item LEAD_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item LITHIUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item PLATINUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item SILVER_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item STARLITE_DUST = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item TIN_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item URANIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item URANIUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    //private static final Item COBALT_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    //private static final Item COBALT_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
 
     public static void registerItems() {
         // Register items here
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_ingot"), ALUMINUM_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_nugget"), ALUMINUM_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_alloy"), BRONZE_ALLOY);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_dust"), ENDERITE_DUST);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_shard"), ENDERITE_SHARD);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_ingot"), LEAD_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_nugget"), LEAD_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_ingot"), LITHIUM_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_nugget"), LITHIUM_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_ingot"), PLATINUM_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_nugget"), PLATINUM_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby"), RUBY_GEM);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire"), SAPPHIRE_GEM);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_ingot"), SILVER_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_nugget"), SILVER_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_shard"), STARLITE_SHARD);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_dust"), STARLITE_DUST);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "starlite_dust"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_ingot"), TIN_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_nugget"), TIN_NUGGET);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"), URANIUM_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_nugget"), URANIUM_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_ingot"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_nugget"), new Item(new Item.Settings().group(ItemGroup.MATERIALS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), URANIUM_ROD);
-        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
-        //Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
 
         // Register tool items here
         /// Axes
