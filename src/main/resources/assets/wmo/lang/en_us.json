@@ -139,5 +139,8 @@
     "item.wmo.enderite_dust": "Enderite Dust",
     "item.wmo.enderite_shard": "Enderite Shard",
     "block.wmo.enderite_ore": "Enderite Ore",
-    "block.wmo.enderite_block": "Enderite Block"
+    "block.wmo.enderite_block": "Enderite Block",
+    "item.wmo.starlite_shard": "Starlite Shard",
+    "item.wmo.starlite_dust": "Starlite Dust",
+    "block.wmo.starlite_block": "Starlite Block"
 }
