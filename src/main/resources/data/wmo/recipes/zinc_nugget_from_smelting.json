@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "wmo:zinc_pickaxe"
+    },
+    {
+      "item": "wmo:zinc_shovel"
+    },
+    {
+      "item": "wmo:zinc_axe"
+    },
+    {
+      "item": "wmo:zinc_hoe"
+    },
+    {
+      "item": "wmo:zinc_sword"
+    },
+    {
+      "item": "wmo:zinc_helmet"
+    },
+    {
+      "item": "wmo:zinc_chestplate"
+    },
+    {
+      "item": "wmo:zinc_leggings"
+    },
+    {
+      "item": "wmo:zinc_boots"
+    },
+    {
+      "item": "wmo:zinc_horse_armor"
+    }
+  ],
+  "result": "wmo:zinc_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}
