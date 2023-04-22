@@ -18,5 +18,6 @@ public class WMOOreGenerationHelper {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.TIN_ORE_PLACED.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.URANIUM_ORE_PLACED.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.COBALT_ORE_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, WMOPlacedFeaturesConstants.ZINC_ORE_PLACED.getKey().get());
     }
 }
