@@ -10,7 +10,6 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import org.apache.http.client.utils.Idn;
 
 public class ModItems {
     public static final Item ALUMINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
@@ -37,8 +36,8 @@ public class ModItems {
     public static final Item URANIUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     private static final Item COBALT_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     private static final Item COBALT_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    private static final Item ZINC_BLOCK = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    private static final Item ZINC_ORE = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    private static final Item ZINC_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    private static final Item ZINC_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
 
     public static void registerItems() {
@@ -67,8 +66,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), URANIUM_ROD);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), ZINC_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), ZINC_ORE);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), ZINC_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), ZINC_NUGGET);
 
         // Register tool items here
         /// Axes
