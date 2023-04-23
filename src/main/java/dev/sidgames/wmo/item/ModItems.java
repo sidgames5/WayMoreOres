@@ -2,9 +2,7 @@ package dev.sidgames.wmo.item;
 
 import dev.sidgames.wmo.Reference;
 import dev.sidgames.wmo.item.functional.LeadIngot;
-import dev.sidgames.wmo.item.tool.WMOAxeItem;
-import dev.sidgames.wmo.item.tool.WMOHoeItem;
-import dev.sidgames.wmo.item.tool.WMOPickaxeItem;
+import dev.sidgames.wmo.item.tool.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -80,6 +78,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_axe"), new WMOAxeItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_axe"), new WMOAxeItem(WMOToolMaterials.SILVER, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_axe"), new WMOAxeItem(WMOToolMaterials.TIN, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_axe"), new WMOAxeItem(WMOToolMaterials.ENDERITE, 2, 1.2f));
+
         /// Hoes
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_hoe"), new WMOHoeItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_hoe"), new WMOHoeItem(WMOToolMaterials.BRONZE, 2, 1.2f));
@@ -90,6 +90,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_hoe"), new WMOHoeItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_hoe"), new WMOHoeItem(WMOToolMaterials.SILVER, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_hoe"), new WMOHoeItem(WMOToolMaterials.TIN, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_hoe"), new WMOHoeItem(WMOToolMaterials.ENDERITE, 2, 1.2f));
+
         /// Pickaxes
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.BRONZE, 2, 1.2f));
@@ -100,26 +102,31 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.SILVER, 2, 1.2f));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.TIN, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.ENDERITE, 2, 1.2f));
+
         /// Shovels
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_shovel"), new ShovelItem(WMOToolMaterials.ALUMINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_shovel"), new ShovelItem(WMOToolMaterials.BRONZE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_shovel"), new ShovelItem(WMOToolMaterials.LEAD, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_shovel"), new ShovelItem(WMOToolMaterials.LITHIUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_shovel"), new ShovelItem(WMOToolMaterials.PLATINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_shovel"), new ShovelItem(WMOToolMaterials.RUBY, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_shovel"), new ShovelItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_shovel"), new ShovelItem(WMOToolMaterials.SILVER, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_shovel"), new ShovelItem(WMOToolMaterials.TIN, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_shovel"), new WMOShovelItem(WMOToolMaterials.ALUMINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_shovel"), new WMOShovelItem(WMOToolMaterials.BRONZE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_shovel"), new WMOShovelItem(WMOToolMaterials.LEAD, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_shovel"), new WMOShovelItem(WMOToolMaterials.LITHIUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_shovel"), new WMOShovelItem(WMOToolMaterials.PLATINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_shovel"), new WMOShovelItem(WMOToolMaterials.RUBY, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_shovel"), new WMOShovelItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_shovel"), new WMOShovelItem(WMOToolMaterials.SILVER, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_shovel"), new WMOShovelItem(WMOToolMaterials.TIN, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_shovel"), new WMOShovelItem(WMOToolMaterials.ENDERITE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+
         /// Swords
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_sword"), new SwordItem(WMOToolMaterials.ALUMINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_sword"), new SwordItem(WMOToolMaterials.BRONZE, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_sword"), new SwordItem(WMOToolMaterials.LEAD, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_sword"), new SwordItem(WMOToolMaterials.LITHIUM, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_sword"), new SwordItem(WMOToolMaterials.PLATINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_sword"), new SwordItem(WMOToolMaterials.RUBY, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_sword"), new SwordItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_sword"), new SwordItem(WMOToolMaterials.SILVER, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_sword"), new SwordItem(WMOToolMaterials.TIN, 2, 1.2f, new Item.Settings().group(ItemGroup.COMBAT)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_sword"), new WMOSwordItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_sword"), new WMOSwordItem(WMOToolMaterials.BRONZE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_sword"), new WMOSwordItem(WMOToolMaterials.LEAD, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_sword"), new WMOSwordItem(WMOToolMaterials.LITHIUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_sword"), new WMOSwordItem(WMOToolMaterials.PLATINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_sword"), new WMOSwordItem(WMOToolMaterials.RUBY, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_sword"), new WMOSwordItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_sword"), new WMOSwordItem(WMOToolMaterials.SILVER, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_sword"), new WMOSwordItem(WMOToolMaterials.TIN, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_sword"), new WMOSwordItem(WMOToolMaterials.ENDERITE, 4, 0.4f));
 
         // Register armor here
         /// Helmets
@@ -132,6 +139,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_helmet"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_helmet"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_helmet"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+
         /// Chestplates
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_chestplate"), new ArmorItem(WMOArmorMaterials.ALUMINUM, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_chestplate"), new ArmorItem(WMOArmorMaterials.BRONZE, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
@@ -142,6 +150,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_chestplate"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_chestplate"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_chestplate"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
+
         /// Leggings
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_leggings"), new ArmorItem(WMOArmorMaterials.ALUMINUM, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_leggings"), new ArmorItem(WMOArmorMaterials.BRONZE, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
@@ -152,6 +161,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_leggings"), new ArmorItem(WMOArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_leggings"), new ArmorItem(WMOArmorMaterials.SILVER, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_leggings"), new ArmorItem(WMOArmorMaterials.TIN, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
+
         /// Boots
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_boots"), new ArmorItem(WMOArmorMaterials.ALUMINUM, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_boots"), new ArmorItem(WMOArmorMaterials.BRONZE, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));

@@ -16,7 +16,8 @@ public enum WMOToolMaterials implements ToolMaterial {
     RUBY(MiningLevels.IRON, 9, 3.0F, 0.0F, 14, () -> Ingredient.ofItems(ModItems.RUBY_GEM)),
     SAPPHIRE(MiningLevels.IRON, 9, 3.0F, 0.0F, 14, () -> Ingredient.ofItems(ModItems.SAPPHIRE_GEM)),
     SILVER(MiningLevels.IRON, 110, 3.0F, 0.0F, 14, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
-    TIN(MiningLevels.IRON, 220, 5.0F, 0.0F, 14, () -> Ingredient.ofItems(ModItems.TIN_INGOT));
+    TIN(MiningLevels.IRON, 220, 5.0F, 0.0F, 14, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
+    ENDERITE(MiningLevels.NETHERITE, 2591, 15.0F, 6.0F, 14, () -> Ingredient.ofItems(ModItems.ENDERITE_SHARD));
 
     private final int miningLevel;
     private final int itemDurability;
