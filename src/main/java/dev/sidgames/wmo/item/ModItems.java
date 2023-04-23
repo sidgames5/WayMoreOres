@@ -1,7 +1,7 @@
 package dev.sidgames.wmo.item;
 
 import dev.sidgames.wmo.Reference;
-import dev.sidgames.wmo.item.functional.LeadIngot;
+import dev.sidgames.wmo.item.functional.LeadIngotItem;
 import dev.sidgames.wmo.item.tool.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
@@ -10,32 +10,34 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item ALUMINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item BRONZE_ALLOY = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item ENDERITE_DUST = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item ENDERITE_SHARD = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item LEAD_INGOT = new LeadIngot(new FabricItemSettings().group(ItemGroup.MATERIALS).food(WMOFoodComponents.LEAD_INGOT));
-    public static final Item LITHIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item PLATINUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item SILVER_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item STARLITE_SHARD = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item TIN_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item RUBY_GEM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item SAPPHIRE_GEM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item URANIUM_ROD = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item ALUMINUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item LEAD_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item LITHIUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item PLATINUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item SILVER_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item STARLITE_DUST = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item TIN_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item URANIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item URANIUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    private static final Item COBALT_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    private static final Item COBALT_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    private static final Item ZINC_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    private static final Item ZINC_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item ALUMINUM_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item BRONZE_ALLOY = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item ENDERITE_DUST = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item ENDERITE_SHARD = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item LEAD_INGOT = new LeadIngotItem(new FabricItemSettings().group(ItemGroup.MATERIALS).food(WMOFoodComponents.LEAD_INGOT));
+    public static final Item LITHIUM_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item PLATINUM_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item SILVER_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item STARLITE_SHARD = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item TIN_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item RUBY_GEM = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item SAPPHIRE_GEM = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item URANIUM_ROD = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item ALUMINUM_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item LEAD_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item LITHIUM_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item PLATINUM_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item SILVER_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item STARLITE_DUST = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item TIN_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item URANIUM_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    public static final Item URANIUM_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    private static final Item COBALT_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    private static final Item COBALT_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    private static final Item ZINC_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    private static final Item ZINC_NUGGET = new WMOItem(ItemGroup.MATERIALS);
+    private static final Item TITANIUM_INGOT = new WMOItem(ItemGroup.MATERIALS);
+    private static final Item TITANIUM_NUGGET = new WMOItem(ItemGroup.MATERIALS);
 
 
     public static void registerItems() {
@@ -66,6 +68,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), ZINC_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), ZINC_NUGGET);
+        item("titanium_ingot", TITANIUM_INGOT);
+        item("titanium_nugget", TITANIUM_NUGGET);
 
         // Register tool items here
         /// Axes
@@ -175,6 +179,10 @@ public class ModItems {
 
         // special items
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "technoblades_crown"), new ArmorItem(WMOArmorMaterials.TECHNOBLADE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+    }
+
+    private static void item(String id, Item itm) {
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, id), itm);
     }
 
 }

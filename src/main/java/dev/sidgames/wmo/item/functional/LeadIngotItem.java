@@ -1,8 +1,10 @@
 package dev.sidgames.wmo.item.functional;
 
+import dev.sidgames.wmo.item.WMOItem;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
@@ -10,8 +12,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class LeadIngot extends Item {
-    public LeadIngot(Settings settings) {
+public class LeadIngotItem extends Item {
+    public LeadIngotItem(Settings settings) {
         super(settings);
     }
 

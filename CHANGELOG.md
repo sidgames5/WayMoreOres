@@ -3,6 +3,7 @@
 ## Additions
 
 - Added cobalt
+- Added titanium
 - Added zinc
 - Added enderite tools
 
@@ -16,6 +17,7 @@
 
 - Replace ShovelItem with custom WMOShovelItem class
 - Replace SwordItem with custom WMOSwordItem class
+- Replace Item with custom WMOItem class
 
 # Overall changelog for 1.7.0
 

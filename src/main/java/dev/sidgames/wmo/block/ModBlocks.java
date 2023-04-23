@@ -48,6 +48,8 @@ public class ModBlocks {
     public static Block COBALT_ORE;
     public static Block ZINC_BLOCK;
     public static Block ZINC_ORE;
+    public static Block TITANIUM_BLOCK;
+    public static Block TITANIUM_ORE;
 
     public static void registerBlocks() {
         // Register blocks here
@@ -76,6 +78,9 @@ public class ModBlocks {
         COBALT_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "cobalt_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         COBALT_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "cobalt_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
         ZINC_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "zinc_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
+        ZINC_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "zinc_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
+        TITANIUM_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "titanium_block"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
+        TITANIUM_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "titanium_ore"), new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0F).resistance(10.0F).requiresTool()));
 
         DEEPSLATE_BAUXITE_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_bauxite_ore"), new Block(FabricBlockSettings.copy(ModBlocks.BAUXITE_ORE)));
         DEEPSLATE_LEAD_ORE = Registry.register(Registry.BLOCK, new Identifier(Reference.MOD_ID, "deepslate_lead_ore"), new Block(FabricBlockSettings.copy(ModBlocks.LEAD_ORE)));
@@ -118,6 +123,8 @@ public class ModBlocks {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ore"), new BlockItem(COBALT_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), new BlockItem(ZINC_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), new BlockItem(ZINC_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "titanium_block"), new BlockItem(TITANIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "titanium_ore"), new BlockItem(TITANIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_bauxite_ore"), new BlockItem(DEEPSLATE_BAUXITE_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "deepslate_lead_ore"), new BlockItem(DEEPSLATE_LEAD_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
