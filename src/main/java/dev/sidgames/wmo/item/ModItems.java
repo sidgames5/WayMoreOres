@@ -105,16 +105,16 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_pickaxe"), new WMOPickaxeItem(WMOToolMaterials.ENDERITE, 2, 1.2f));
 
         /// Shovels
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_shovel"), new WMOShovelItem(WMOToolMaterials.ALUMINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_shovel"), new WMOShovelItem(WMOToolMaterials.BRONZE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_shovel"), new WMOShovelItem(WMOToolMaterials.LEAD, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_shovel"), new WMOShovelItem(WMOToolMaterials.LITHIUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_shovel"), new WMOShovelItem(WMOToolMaterials.PLATINUM, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_shovel"), new WMOShovelItem(WMOToolMaterials.RUBY, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_shovel"), new WMOShovelItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_shovel"), new WMOShovelItem(WMOToolMaterials.SILVER, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_shovel"), new WMOShovelItem(WMOToolMaterials.TIN, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_shovel"), new WMOShovelItem(WMOToolMaterials.ENDERITE, 2, 1.2f, new Item.Settings().group(ItemGroup.TOOLS)));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_shovel"), new WMOShovelItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "bronze_shovel"), new WMOShovelItem(WMOToolMaterials.BRONZE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lead_shovel"), new WMOShovelItem(WMOToolMaterials.LEAD, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "lithium_shovel"), new WMOShovelItem(WMOToolMaterials.LITHIUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "platinum_shovel"), new WMOShovelItem(WMOToolMaterials.PLATINUM, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "ruby_shovel"), new WMOShovelItem(WMOToolMaterials.RUBY, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "sapphire_shovel"), new WMOShovelItem(WMOToolMaterials.SAPPHIRE, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "silver_shovel"), new WMOShovelItem(WMOToolMaterials.SILVER, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "tin_shovel"), new WMOShovelItem(WMOToolMaterials.TIN, 2, 1.2f));
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "enderite_shovel"), new WMOShovelItem(WMOToolMaterials.ENDERITE, 2, 1.2f));
 
         /// Swords
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "aluminum_sword"), new WMOSwordItem(WMOToolMaterials.ALUMINUM, 2, 1.2f));
