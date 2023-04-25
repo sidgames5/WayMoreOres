@@ -25,6 +25,8 @@
     "wmo:starlite_block",
     "wmo:tin_block",
     "wmo:tin_ore",
-    "wmo:deepslate_tin_ore"
+    "wmo:deepslate_tin_ore",
+    "wmo:titanium_block",
+    "wmo:titanium_ore"
   ]
 }
