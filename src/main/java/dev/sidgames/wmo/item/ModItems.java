@@ -66,8 +66,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "uranium_rod"), URANIUM_ROD);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_ingot"), COBALT_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "cobalt_nugget"), COBALT_NUGGET);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_block"), ZINC_INGOT);
-        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ore"), ZINC_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_ingot"), ZINC_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, "zinc_nugget"), ZINC_NUGGET);
         item("titanium_ingot", TITANIUM_INGOT);
         item("titanium_nugget", TITANIUM_NUGGET);
 

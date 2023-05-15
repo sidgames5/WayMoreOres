@@ -146,5 +146,6 @@
     "block.wmo.cobalt_ore": "Cobalt Ore",
     "block.wmo.cobalt_block": "Cobalt Block",
     "item.wmo.cobalt_ingot": "Cobalt Ingot",
-    "item.wmo.cobalt_nugget": "Cobalt Nugget"
+    "item.wmo.cobalt_nugget": "Cobalt Nugget",
+    "effect.wmo.radiation_poisoning": "Radiation Poisoning"
 }

@@ -1,6 +1,7 @@
 package dev.sidgames.wmo;
 
 import dev.sidgames.wmo.block.ModBlocks;
+import dev.sidgames.wmo.effect.ModEffects;
 import dev.sidgames.wmo.item.ModItems;
 import dev.sidgames.wmo.util.WMORegistries;
 import dev.sidgames.wmo.world.feature.WMOConfiguredFeaturesHelper;
@@ -15,5 +16,6 @@ public class WayMoreOres implements ModInitializer {
 		WMORegistries.registerModStuffs();
 		WMOConfiguredFeaturesHelper.registerConfiguredFeatures();
 		WMOWorldGenHelper.generateModWorldGen();
+		ModEffects.registerEffects();
 	}
 }
