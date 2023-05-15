@@ -15,8 +15,8 @@ public class RadiationPoisoningEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.world.isClient()) {
-            pLivingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 1, pAmplifier, false, false, false));
-            pLivingEntity.damage(new DamageSource("radiation"), 0.1F);
+            pLivingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 2, pAmplifier, true, false, false));
+            pLivingEntity.damage(new DamageSource("radiation"), 0.1F * (pAmplifier + 1));
         }
     }
 
