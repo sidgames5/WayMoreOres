@@ -13,6 +13,12 @@ group = project.maven_group
 
 repositories {
 	mavenCentral()
+	maven {
+		url "https://repo.repsy.io/mvn/sidgames5/sidgames5"
+	}
+	maven {
+		url "https://packagecloud.io/BasicCorruption/Netherbyte/maven2"
+	}
 
 	// Add repositories to retrieve artifacts from in here.
 	// You should only use this when depending on other mods because
@@ -30,9 +36,8 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	// Log4j
-	implementation 'org.apache.logging.log4j:log4j-api:2.18.0'
-	implementation 'org.apache.logging.log4j:log4j-core:2.18.0'
+	// NulaCore
+	modImplementation("dev.sidgames:NulaCore:1.0.0")
 }
 
 processResources {

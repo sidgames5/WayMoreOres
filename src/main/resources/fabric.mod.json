@@ -10,8 +10,8 @@
     "LeWolfYT"
   ],
   "contact": {
-    "homepage": "https://basiccorruption.github.io/waymoreores/",
-    "sources": "https://github.com/BasicCorruption/WaymoreOres"
+    "homepage": "https://sidgames5.github.io/waymoreores/",
+    "sources": "https://github.com/sidgames5/WaymoreOres"
   },
 
   "license": "CC0-1.0",
@@ -33,9 +33,9 @@
   "depends": {
     "fabricloader": ">=0.14.6",
     "minecraft": "~1.19",
-    "java": ">=17"
+    "java": ">=17",
+    "nulacore": ">=1.0"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

@@ -6,16 +6,9 @@ After almost a year of no updates, development has returned! I will start to rel
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2023?style=for-the-badge)
 
-![GitHub issues](https://img.shields.io/github/issues/basiccorruption/waymoreores?style=flat-square&logo=github)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/basiccorruption/waymoreores?style=flat-square&logo=github)
-![GitHub](https://img.shields.io/github/license/basiccorruption/waymoreores?style=flat-square&logo=github)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag&style=flat-square&logo=github)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/basiccorruption/waymoreores?display_name=tag&include_prereleases&style=flat-square&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/basiccorruption/waymoreores?style=flat-square&logo=github)
-![GitHub Discussions](https://img.shields.io/github/discussions/basiccorruption/waymoreores?style=flat-square&logo=github)
-![Codacy grade](https://img.shields.io/codacy/grade/12526895a505498eb3904f406fac9f8c?style=flat-square)
-
-![Discord](https://img.shields.io/discord/991791197783851038?logo=discord&style=flat-square)
+![GitHub](https://img.shields.io/github/license/sidgames5/waymoreores?style=flat-square&logo=github)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/sidgames5/waymoreores?display_name=tag&style=flat-square&logo=github)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/sidgames5/waymoreores?display_name=tag&include_prereleases&style=flat-square&logo=github)
 
 WayMoreOres is a utility mod that adds many new ores to Minecraft!
 
